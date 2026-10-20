@@ -33,12 +33,10 @@ AIによってソフトウェア開発の生産性がどの程度変わるかに
 
 | 調査 | 概要 | 読み方 |
 |---|---|---|
-| Google DORA（2025年） | 約5,000人の技術専門職への調査をもとに、AIを組織の既存能力を増幅する要因と捉える | 高い成果にはツール導入だけでなく、開発・検証・組織の仕組みが必要 |
-| METR（2025〜2026年） | 2025年の実験では、熟練OSS開発者16名・246タスクでAI利用時に所要時間が19%増加。2026年2月の追試報告では高速化を示唆するデータも得られたが、選択バイアス等により効果の大きさは確定できないとした | 熟練者・既知コードベースではAIが遅くする場合がある |
-| McKinsey（2025年11月） | 約300社の調査で、AI活用で高い成果を得た企業群は生産性・市場投入時間・品質の大きな改善を報告 | 役割、プロセス、組織運営の再設計が成果を分ける |
-| 富士通（2026年2月） | AI-Driven Software Development Platformによる既存システム改修の自動化で、社内で約100倍の生産性向上事例を公表 | 企業全体の平均改善率ではなく、対象業務・条件に依存する実績 |
-
-<!-- 公開前に要確認：DORA 2025の調査人数、METR 2026年2月の追試報告、McKinsey 2025年11月の調査社数、富士通2026年2月の発表内容と数値。いずれも元原稿（ChatGPT出力）の記述であり、本改稿では一次資料を照合していない。確認できないものは行ごと削る。 -->
+| [Google DORA（2025年）](https://cloud.google.com/resources/devops/state-of-devops?hl=ja) | 約5,000人の技術専門職への調査をもとに、AIを組織の既存能力を増幅する要因と捉える | 高い成果にはツール導入だけでなく、開発・検証・組織の仕組みが必要 |
+| [METR（2025年）](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) ／ [追試報告（2026年2月）](https://metr.org/blog/2026-02-24-uplift-update/) | 2025年の実験では、熟練OSS開発者16名・246タスクでAI利用時に所要時間が19%増加。2026年2月の追試報告では高速化を示唆するデータも得られたが、参加辞退による選択効果などにより効果の大きさは確定できないとし、実験設計を見直すとした | 熟練者・既知コードベースではAIが遅くする場合がある |
+| [McKinsey（2025年11月）](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/unlocking-the-value-of-ai-in-software-development) | 約300社の上場企業の経営層を対象にした調査で、AI活用で高い成果を得た企業群は生産性・市場投入時間・品質の大きな改善を報告 | 役割、プロセス、組織運営の再設計が成果を分ける |
+| [富士通（2026年2月）](https://global.fujitsu/ja-JP/technology/key-technologies/ai/ai-dsdp) | AI-Driven Software Development Platformの運用開始を発表。社内検証の1案件で、約3人月の既存システム改修を約4時間で完了し、約100倍の生産性向上と公表 | 企業全体の平均改善率ではなく、単一案件・対象業務・条件に依存する実績 |
 
 これらから導けるのは「AIによって常に開発が高速になる」という結論ではない。AIの経済効果は、適用タスク、組織の既存能力、検証負荷、全体の仕事の流れによって大きく変わる。**経営者が測定すべきなのは、AIの使用率でもコード生成速度でもない。品質を満たした価値提供の速度と、それを実現する総費用である。**
 
@@ -402,7 +400,8 @@ $$
 - David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” 1997. https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z
 - David J. Teece, “Explicating Dynamic Capabilities,” 2007. https://doi.org/10.1002/smj.640
 - James G. March, “Exploration and Exploitation in Organizational Learning,” 1991. https://doi.org/10.1287/orsc.2.1.71
+- DORA (Google), *2025 DORA State of AI-assisted Software Development Report*, 2025. https://cloud.google.com/resources/devops/state-of-devops?hl=ja
 - METR, “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity,” 2025. https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
-- DORA, *2025 State of AI-assisted Software Development*. https://dora.dev/
-- McKinsey & Company, 2025年11月のAI活用企業調査（要出典確認）
-- 富士通, AI-Driven Software Development Platform 発表, 2026年2月（要出典確認）
+- METR, “We are Changing our Developer Productivity Experiment Design,” 2026-02-24. https://metr.org/blog/2026-02-24-uplift-update/
+- McKinsey & Company, “Unlocking the value of AI in software development,” 2025-11-03. https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/unlocking-the-value-of-ai-in-software-development
+- 富士通, 「AIエージェントによるシステム開発の刷新 AI-Driven Software Development Platform」, 2026年2月17日発表. https://global.fujitsu/ja-JP/technology/key-technologies/ai/ai-dsdp（報道例：https://news.mynavi.jp/techplus/article/20260217-4137042/）

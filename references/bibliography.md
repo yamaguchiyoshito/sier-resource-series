@@ -26,18 +26,19 @@
 
 ## AIと開発生産性の調査
 
-- METR, “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity,” 2025. https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/（第5回）
-- DORA, *2025 State of AI-assisted Software Development*. https://dora.dev/（第5回）
+- DORA (Google), *2025 DORA State of AI-assisted Software Development Report*, 2025. https://cloud.google.com/resources/devops/state-of-devops?hl=ja（第5回）
+- METR, “Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity,” 2025. https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/（第5回・第6回）
+- METR, “We are Changing our Developer Productivity Experiment Design,” 2026-02-24. https://metr.org/blog/2026-02-24-uplift-update/（第5回）
+- McKinsey & Company, “Unlocking the value of AI in software development,” 2025-11-03. https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/unlocking-the-value-of-ai-in-software-development（第5回）
+- 富士通, 「AIエージェントによるシステム開発の刷新 AI-Driven Software Development Platform」, 2026年2月17日発表. https://global.fujitsu/ja-JP/technology/key-technologies/ai/ai-dsdp（第5回）
 
 ## 確認範囲
 
-第5回§2で参照した次の4点は、元原稿の記述を保持したものであり、本リポジトリの作成時点で一次資料を照合していない。公開前に確認し、確認できないものは本文から削る。
+第5回§2で参照した調査4件は、2026年10月21日に上記の一次資料で確認した。引用時の読み替えに注意する点を記す。
 
-| 記述 | 確認すべき内容 |
+| 記述 | 確認結果 |
 |---|---|
-| Google DORA 2025 の「約5,000人」 | 調査対象人数 |
-| METR 2026年2月の追試報告 | 報告の有無、内容、選択バイアスに関する記述 |
-| McKinsey 2025年11月の「約300社」調査 | 調査の存在、社数、主張内容 |
-| 富士通 2026年2月の AI-Driven Software Development Platform と「約100倍」 | 発表の有無、数値の条件 |
-
-METR 2025年7月の研究（熟練OSS開発者16名・246タスク・所要時間19%増）は上記リンクの公開内容と一致する。
+| Google DORA 2025 の「約5,000人」 | 報告書の概要に「約5,000人の技術専門職」と記載。約100時間の定性データも併用 |
+| METR 2026年2月の追試報告 | 2026年2月24日の公式ブログ。高速化を示唆する推定値はあるが信頼区間が0をまたぎ、参加辞退による選択効果と報酬変更、時間計測の不確かさから結論を保留し、実験設計を変更すると表明 |
+| McKinsey 2025年11月の「約300社」 | 2025年11月3日公開。約300社の上場企業の経営層を対象とした調査。資料によって「約300社」と「約300名の上級リーダー」の表現が混在するため、本文では「約300社の上場企業の経営層」とした |
+| 富士通 2026年2月の「約100倍」 | 2026年2月17日発表。社内検証の1案件で約3人月の改修を約4時間で完了した結果であり、全社平均ではない。第三者による検証は確認していない |
