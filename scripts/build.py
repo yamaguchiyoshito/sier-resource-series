@@ -69,7 +69,13 @@ def render(text: str, prefix: str = '') -> str:
     output = run_pandoc(json.dumps(ast, ensure_ascii=False), args)
     if prefix:
         output = output.replace('id="footnotes"', f'id="{prefix}footnotes"')
-    return output
+    return wrap_tables(output)
+
+
+def wrap_tables(output: str) -> str:
+    """<table> を横スクロール用の <div class="table-wrap"> で包む。table 自体を display:block にすると行が内容幅で止まるため。"""
+    output = re.sub(r'<table(\s[^>]*)?>', lambda m: f'<div class="table-wrap"><table{m.group(1) or ""}>', output)
+    return output.replace('</table>', '</table></div>')
 
 
 def wrap_page(title: str, body: str, source: Path, series: dict, css: str) -> str:
