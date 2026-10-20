@@ -34,7 +34,9 @@ def run_pandoc(text: str, args: list[str]) -> str:
 
 
 def parse_markdown(text: str) -> dict:
-    return json.loads(run_pandoc(text, ['--from', READER, '--to', 'json']))
+    # --columns を十分大きくし、パイプテーブルに区切り行由来の相対列幅(colgroup)を付けさせない。
+    # 列幅はブラウザが内容に応じて決める(番号列は狭く、本文列は広く)。
+    return json.loads(run_pandoc(text, ['--from', READER, '--to', 'json', '--columns=10000']))
 
 
 def map_url(url: str) -> str:
