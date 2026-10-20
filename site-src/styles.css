@@ -59,8 +59,11 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 p code,li code,td code{background:var(--soft);padding:1px 5px;border-radius:4px}
 
 /* 数式（MathML） */
-math{font-family:"STIX Two Math","Cambria Math","Latin Modern Math",math;font-size:1.04em;line-height:normal}
-math[display=block]{display:block;overflow-x:auto;overflow-y:hidden;padding:14px 12px;margin:14px 0 18px;background:var(--soft);border-radius:8px;text-align:center}
+/* 数式：ブロック数式は左寄せ＋インデント、背景なし。複数行の式は先頭が揃う */
+math{font-family:"STIX Two Math","Cambria Math","Latin Modern Math",math;font-size:1.06em;line-height:normal}
+math[display=block]{display:block;overflow-x:auto;overflow-y:hidden;text-align:left;font-size:1.12em;line-height:1.6;padding:6px 0 6px 1.5em;margin:.8em 0 1em;background:transparent;border-radius:0}
+math[display=block]+math[display=block]{margin-top:-.4em}
+math[display=block] mfrac{padding:0 .1em}
 math[display=block]+p{margin-top:0}
 
 /* 脚注・フッター */
@@ -96,5 +99,5 @@ body:has(.toc-state:checked) .toc-drawer{transform:none;visibility:visible}
 @media(prefers-reduced-motion:reduce){.toc-drawer,.toc-backdrop,.toc-toggle{transition:none}html{scroll-behavior:auto}}
 @media(prefers-color-scheme:dark){:root{--paper:#171f26;--card:#1e2930;--ink:#e6ecea;--muted:#a9b7b5;--accent:#7cc4e8;--line:#33434a;--soft:#222f37;--table-stripe:#1c272e}img{background:#f8f7f2;border-color:#4a5a62}}
 @media(max-width:940px){.layout{padding:22px 20px 60px}main{max-width:none}.topbar{padding:11px 18px}}
-@media(max-width:600px){.table-wrap{border-radius:6px}.brand{font-size:15px}.brand span{display:none}body{font-size:15.5px;line-height:1.75}h1{font-size:25px}h2{font-size:20px}h3{font-size:17px}.topbar-actions{gap:12px;font-size:13px}.toc-toggle{padding:6px 11px}.layout{padding-left:16px;padding-right:16px}img{width:100%;padding:4px}th,td{padding:8px 9px}table{font-size:13.5px}math[display=block]{font-size:.95em;padding:12px 8px}}
+@media(max-width:600px){.table-wrap{border-radius:6px}.brand{font-size:15px}.brand span{display:none}body{font-size:15.5px;line-height:1.75}h1{font-size:25px}h2{font-size:20px}h3{font-size:17px}.topbar-actions{gap:12px;font-size:13px}.toc-toggle{padding:6px 11px}.layout{padding-left:16px;padding-right:16px}img{width:100%;padding:4px}th,td{padding:8px 9px}table{font-size:13.5px}math[display=block]{font-size:1.02em;padding-left:.75em}}
 @media print{.topbar,aside,.toc-backdrop,.skip,footer{display:none}.layout{display:block;padding:0}main{max-width:none}body{background:white;color:black;font-size:11pt}h1{font-size:20pt}h2,h3{break-after:avoid}img{max-height:16cm;break-inside:avoid;border:0}a{color:inherit}pre,math[display=block]{overflow:visible}p{orphans:3;widows:3}.table-wrap{overflow:visible;border:0}}
