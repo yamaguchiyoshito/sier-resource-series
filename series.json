@@ -1,0 +1,73 @@
+{
+  "title": "AI時代のSIer経営を資源から再設計する",
+  "subtitle": "保有から変換へ、変換から制約へ、制約から経営モデルへ",
+  "eyebrow": "RESOURCES / CONSTRAINTS",
+  "tagline": "経営の中心は保有量の最大化ではなく、資源から価値と将来の生産能力を作ることである。",
+  "language": "ja",
+  "version": "1.0.0",
+  "cours": [
+    {
+      "number": 1,
+      "title": "経営資源からAI時代のSIer経営モデルへ",
+      "chapters": [1, 6],
+      "cover": "assets/06-series-map.svg",
+      "status": "published"
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "management-resources",
+      "title": "経営資源とは何か",
+      "subtitle": "保有から変換へ",
+      "summary": "7資源、6つの変換、AIが変える資源構造、5つの視点。経営資源を持つことと使いこなすことの違い。",
+      "path": "articles/01-management-resources.md",
+      "figure": "assets/01-resource-system.svg"
+    },
+    {
+      "number": 2,
+      "slug": "resource-taxonomy",
+      "title": "経営資源の分類体系",
+      "subtitle": "種類・性質・能力・戦略価値",
+      "summary": "ペンローズからティースまでの理論系譜、7分類、性質、Resource／Capability／Dynamic Capabilityの3階層、8軸、3つの価値。",
+      "path": "articles/02-resource-taxonomy.md",
+      "figure": "assets/02-three-levels.svg"
+    },
+    {
+      "number": 3,
+      "slug": "stock-flow-transformation",
+      "title": "資源の流れと変換",
+      "subtitle": "Stock・Flow・Feedbackで企業を捉える",
+      "summary": "Stock・Flow、7変換類型、SECI、強化ループと抑制ループ、4循環、消費型と蓄積型、二重の価値創出。",
+      "path": "articles/03-stock-flow-transformation.md",
+      "figure": "assets/03-flow-system.svg"
+    },
+    {
+      "number": 4,
+      "slug": "allocation-constraints",
+      "title": "資源配分と制約",
+      "subtitle": "全体最適を阻むボトルネック",
+      "summary": "制約理論、生産性向上の逆説、機会費用、シャドープライス、待ち行列、探索と深化、制約の4階層、GitLabでの観測。",
+      "path": "articles/04-allocation-constraints.md",
+      "figure": "assets/04-toc.svg"
+    },
+    {
+      "number": 5,
+      "slug": "ai-sier-model",
+      "title": "AI時代のSIer経営モデル",
+      "subtitle": "人月依存から能力蓄積型へ",
+      "summary": "5層モデル、収益モデル、知識資産、人間とAIの責務分離、自律度、制約モデル、組織、ダッシュボード、移行ロードマップ。",
+      "path": "articles/05-ai-sier-model.md",
+      "figure": "assets/05-sier-layers.svg"
+    },
+    {
+      "number": 6,
+      "slug": "series-summary",
+      "title": "まとめ",
+      "subtitle": "資源から制約へ、制約から経営モデルへ",
+      "summary": "5つの命題、概念と数式の対応表、経営の運転サイクル、チェックリスト、よくある誤り。",
+      "path": "articles/06-series-summary.md",
+      "figure": "assets/06-series-map.svg"
+    }
+  ]
+}

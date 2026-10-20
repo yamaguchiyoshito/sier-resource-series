@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="434" viewBox="0 0 1000 434" role="img" aria-label="資源と能力の3階層">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">資源と能力の3階層</text>
+<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
+<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">基礎資源 Resource</text>
+<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">人材・資金・技術・知識・顧客関係</text>
+<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
+<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">組織能力 Capability</text>
+<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">設計・実装・検証を反復して完遂</text>
+<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
+<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">変革能力 Dynamic Capability</text>
+<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">AIへの適応、業務と組織の再構成</text>
+</svg>

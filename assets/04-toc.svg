@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-label="制約理論（TOC）の5ステップ">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">制約理論（TOC）の5ステップ</text>
+<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
+<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">1 制約を特定</text>
+<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">レビュー待ち、検証環境、要求承認など</text>
+<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
+<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">2 制約を活用</text>
+<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">制約工程の無駄・手戻り・中断を減らす</text>
+<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
+<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">3 他工程を従属</text>
+<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">仕掛かり量を制約の処理能力に合わせる</text>
+<path d="M500 373 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 390 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="400" width="800" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
+<text x="500" y="431" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">4 制約能力を増強</text>
+<text x="500" y="459" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">追加投資・自動化・教育・体制改善</text>
+<path d="M500 481 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 498 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="508" width="800" height="80" rx="12" fill="#edf0f3" stroke="#8ea6b2"/>
+<text x="500" y="539" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">5 再評価し循環</text>
+<text x="500" y="567" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">制約が移動したら改善対象を変える</text>
+</svg>

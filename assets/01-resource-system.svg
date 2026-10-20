@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="592" viewBox="0 0 1000 592" role="img" aria-label="経営資源から価値を生み出す循環">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">経営資源から価値を生み出す循環</text>
+<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
+<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">経営資源</text>
+<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">人的・技術・財務・知識・組織・関係・権利</text>
+<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
+<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">組織能力</text>
+<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">資源を組み合わせ、反復可能な仕事へ変換</text>
+<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
+<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">顧客価値と収益</text>
+<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">成果物・信頼・対価を獲得</text>
+<path d="M500 373 v24" stroke="#607a91" stroke-width="3"/>
+<path d="M492 390 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
+<rect x="100" y="400" width="800" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
+<text x="500" y="431" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">再投資と能力蓄積</text>
+<text x="500" y="459" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">利益と経験を次の生産力へ転換</text>
+<text x="500" y="572" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#5d6c75">循環を成立させるには、学習・改善・再配分が必要</text>
+</svg>

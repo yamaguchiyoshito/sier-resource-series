@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" role="img" aria-label="共通資産への投資：累積純削減工数"><rect width="100%" height="100%" fill="#ffffff"/>
+<text x="55" y="52" font-family="sans-serif" font-size="27" font-weight="bold" fill="#243b53">共通資産への投資：累積純削減工数</text>
+<line x1="105" y1="460.0" x2="950" y2="460.0" stroke="#e3e9ed"/>
+<text x="93" y="465.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">-568.0</text>
+<line x1="105" y1="389.0" x2="950" y2="389.0" stroke="#e3e9ed"/>
+<text x="93" y="394.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">3.2</text>
+<line x1="105" y1="318.0" x2="950" y2="318.0" stroke="#e3e9ed"/>
+<text x="93" y="323.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">574.4</text>
+<line x1="105" y1="247.0" x2="950" y2="247.0" stroke="#e3e9ed"/>
+<text x="93" y="252.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">1145.6</text>
+<line x1="105" y1="176.0" x2="950" y2="176.0" stroke="#e3e9ed"/>
+<text x="93" y="181.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">1716.8</text>
+<line x1="105" y1="105.0" x2="950" y2="105.0" stroke="#e3e9ed"/>
+<text x="93" y="110.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">2288.0</text>
+<text x="105.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">1</text>
+<text x="316.2" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">2</text>
+<text x="527.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">3</text>
+<text x="738.8" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">4</text>
+<text x="950.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">5</text>
+<polyline points="105.0,439.1 316.2,364.5 527.5,290.0 738.8,215.4 950.0,140.8" fill="none" stroke="#277eae" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="105.0" cy="439.1" r="5" fill="#277eae"/>
+<circle cx="316.2" cy="364.5" r="5" fill="#277eae"/>
+<circle cx="527.5" cy="290.0" r="5" fill="#277eae"/>
+<circle cx="738.8" cy="215.4" r="5" fill="#277eae"/>
+<circle cx="950.0" cy="140.8" r="5" fill="#277eae"/>
+<line x1="105" y1="522" x2="140" y2="522" stroke="#277eae" stroke-width="4"/>
+<text x="148" y="528" font-family="sans-serif" font-size="16" fill="#3c5363">累積純削減工数</text>
+<text x="500.0" y="495" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">経過年</text>
+<text x="22" y="285.0" transform="rotate(-90 22 285.0)" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">時間</text>
+</svg>
