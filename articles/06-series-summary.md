@@ -157,7 +157,7 @@ Resourceを組み合わせて成果を反復するのがCapability、そのCapab
 - Jay B. Barney, “Firm Resources and Sustained Competitive Advantage,” *Journal of Management*, 1991. https://doi.org/10.1177/014920639101700108
 - Ingemar Dierickx and Karel Cool, “Asset Stock Accumulation and Sustainability of Competitive Advantage,” *Management Science*, 1989. https://doi.org/10.1287/mnsc.35.12.1504
 - Robert M. Grant, “Toward a Knowledge-Based Theory of the Firm,” *Strategic Management Journal*, 1996. https://doi.org/10.1002/smj.4250171110
-- David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” 1997. https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z
+- David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” 1997. <https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z>
 - David J. Teece, “Explicating Dynamic Capabilities,” 2007. https://doi.org/10.1002/smj.640
 - Jay W. Forrester, *Industrial Dynamics*, 1961.
 - Ikujiro Nonaka, “A Dynamic Theory of Organizational Knowledge Creation,” *Organization Science*, 1994. https://doi.org/10.1287/orsc.5.1.14

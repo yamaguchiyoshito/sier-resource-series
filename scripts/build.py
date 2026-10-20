@@ -13,7 +13,7 @@ import sys
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-READER = 'markdown+tex_math_dollars+footnotes+pipe_tables'
+READER = 'markdown+tex_math_dollars+footnotes+pipe_tables+autolink_bare_uris'
 SITE_INDEX_END = '<!-- SITE-INDEX-END'
 STATIC_DIRS = ('assets', 'simulation')
 

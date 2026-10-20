@@ -397,7 +397,7 @@ $$
 - Robert M. Grant, “Toward a Knowledge-Based Theory of the Firm,” *Strategic Management Journal*, 1996. https://doi.org/10.1002/smj.4250171110
 - Ronald H. Coase, “The Nature of the Firm,” 1937. https://doi.org/10.1111/j.1468-0335.1937.tb00002.x
 - Oliver E. Williamson, *Markets and Hierarchies*, 1975.
-- David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” 1997. https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z
+- David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” 1997. <https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z>
 - David J. Teece, “Explicating Dynamic Capabilities,” 2007. https://doi.org/10.1002/smj.640
 - James G. March, “Exploration and Exploitation in Organizational Learning,” 1991. https://doi.org/10.1287/orsc.2.1.71
 - DORA (Google), *2025 DORA State of AI-assisted Software Development Report*, 2025. https://cloud.google.com/resources/devops/state-of-devops?hl=ja

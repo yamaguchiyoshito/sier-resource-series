@@ -10,7 +10,7 @@
 - Jay B. Barney, “Firm Resources and Sustained Competitive Advantage,” *Journal of Management*, 17(1), 1991. https://doi.org/10.1177/014920639101700108（第1回・第2回・第5回）
 - Ingemar Dierickx and Karel Cool, “Asset Stock Accumulation and Sustainability of Competitive Advantage,” *Management Science*, 35(12), 1989. https://doi.org/10.1287/mnsc.35.12.1504（第2回）
 - Robert M. Grant, “Toward a Knowledge-Based Theory of the Firm,” *Strategic Management Journal*, 17(S2), 1996. https://doi.org/10.1002/smj.4250171110（第2回・第3回・第5回）
-- David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” *Strategic Management Journal*, 18(7), 1997. https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z（第2回・第5回）
+- David J. Teece, Gary Pisano, Amy Shuen, “Dynamic Capabilities and Strategic Management,” *Strategic Management Journal*, 18(7), 1997. <https://doi.org/10.1002/(SICI)1097-0266(199708)18:7%3C509::AID-SMJ882%3E3.0.CO;2-Z>（第2回・第5回）
 - David J. Teece, “Explicating Dynamic Capabilities: The Nature and Microfoundations of (Sustainable) Enterprise Performance,” *Strategic Management Journal*, 28(13), 2007. https://doi.org/10.1002/smj.640（第2回・第3回・第5回）
 - Ronald H. Coase, “The Nature of the Firm,” *Economica*, 4(16), 1937. https://doi.org/10.1111/j.1468-0335.1937.tb00002.x（第5回）
 - Oliver E. Williamson, *Markets and Hierarchies: Analysis and Antitrust Implications*, Free Press, 1975.（第5回）
