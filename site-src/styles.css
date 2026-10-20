@@ -44,8 +44,9 @@ figcaption,p:has(>em:only-child){font-size:13.5px;line-height:1.65;color:var(--m
 p:has(>em:only-child)+p:has(>em:only-child){margin-top:-14px}
 
 /* 表 */
-.table-wrap{overflow-x:auto;margin:18px 0 24px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
-table{border-collapse:collapse;width:100%;margin:0;font-size:14px;line-height:1.6}
+/* 表は内容幅に収め、長い表だけ本文幅まで広がる。本文幅を超える場合はラッパー内で横スクロール */
+.table-wrap{width:fit-content;max-width:100%;overflow-x:auto;margin:18px 0 24px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+table{border-collapse:collapse;width:auto;max-width:100%;margin:0;font-size:14px;line-height:1.6}
 thead{background:var(--soft)}
 th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--line)}
 th{font-weight:650;white-space:nowrap;color:var(--ink)}
