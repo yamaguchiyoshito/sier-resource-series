@@ -4,48 +4,48 @@
 <text x="250" y="96" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">強化ループ R：成果が次の成果を生む</text>
 <text x="750" y="96" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">抑制ループ B：成長が新しい制約を生む</text>
 <path d="M500 86 V650" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="4 6"/>
-<circle cx="250" cy="385" r="185" fill="none" stroke="#607a91" stroke-width="3"/>
-<polygon points="367.6,241.8 356.2,223.6 346.8,236.5" fill="#607a91"/>
-<circle cx="374" cy="214" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="374" y="219" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="422.5,452.6 436.3,436.1 421.1,431.1" fill="#607a91"/>
-<circle cx="451" cy="450" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="451" y="455" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="239.0,570.0 259.0,578.0 259.0,562.0" fill="#607a91"/>
-<circle cx="250" cy="596" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="250" y="601" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="70.7,431.7 69.2,453.2 84.4,448.3" fill="#607a91"/>
-<circle cx="49" cy="450" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="49" y="455" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="150.2,228.9 129.3,234.1 138.7,247.1" fill="#607a91"/>
-<circle cx="126" cy="214" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="126" y="219" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<rect x="175" y="173" width="150" height="54" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="250" y="196" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">開発活動</text><text x="250" y="220" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">案件の遂行</text>
-<rect x="351" y="301" width="150" height="54" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="426" y="324" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">経験</text><text x="426" y="348" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">障害対応・判断</text>
-<rect x="284" y="508" width="150" height="54" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="359" y="531" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">標準・Skill</text><text x="359" y="555" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">形式化・配布</text>
-<rect x="66" y="508" width="150" height="54" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="141" y="531" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">生産性向上</text><text x="141" y="555" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">工数減・品質向上</text>
-<rect x="-1" y="301" width="150" height="54" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="74" y="324" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">改善機会</text><text x="74" y="348" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">余力と知見</text>
-<circle cx="250" cy="385" r="30" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="250" y="394" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">R</text>
-<circle cx="750" cy="385" r="185" fill="none" stroke="#607a91" stroke-width="3"/>
-<polygon points="888.6,262.0 880.1,242.2 868.8,253.5" fill="#607a91"/>
-<circle cx="899" cy="236" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="899" y="241" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="873.0,523.6 892.8,515.1 881.5,503.8" fill="#607a91"/>
-<circle cx="899" cy="534" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="899" y="539" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="611.4,508.0 619.9,527.8 631.2,516.5" fill="#607a91"/>
-<circle cx="601" cy="534" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="601" y="539" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
-<polygon points="627.0,246.4 607.2,254.9 618.5,266.2" fill="#c0604a"/>
-<circle cx="601" cy="236" r="12" fill="#fcfdfd" stroke="#c0604a" stroke-width="2"/>
-<text x="601" y="241" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">-</text>
-<rect x="662" y="173" width="176" height="54" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="750" y="196" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">AI実装量の増加</text><text x="750" y="220" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">流入が増える</text>
-<rect x="847" y="358" width="176" height="54" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="935" y="381" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">レビュー待ち増加</text><text x="935" y="405" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">滞留Stock</text>
-<rect x="662" y="543" width="176" height="54" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="750" y="566" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">リードタイム悪化</text><text x="750" y="590" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">提供速度の低下</text>
-<rect x="477" y="358" width="176" height="54" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="565" y="381" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">完了量の制約</text><text x="565" y="405" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">投入を抑える圧力</text>
-<circle cx="750" cy="385" r="30" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
-<text x="750" y="394" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">B</text>
+<circle cx="255" cy="385" r="172" fill="none" stroke="#607a91" stroke-width="3"/>
+<polygon points="365.0,252.3 353.5,234.1 344.1,247.0" fill="#607a91"/>
+<circle cx="371" cy="225" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="371" y="230" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="415.2,448.6 429.0,432.1 413.8,427.1" fill="#607a91"/>
+<circle cx="443" cy="446" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="443" y="451" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="244.0,557.0 264.0,565.0 264.0,549.0" fill="#607a91"/>
+<circle cx="255" cy="583" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="255" y="588" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="88.0,427.7 86.6,449.2 101.8,444.2" fill="#607a91"/>
+<circle cx="67" cy="446" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="67" y="451" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="162.8,239.4 141.9,244.7 151.3,257.6" fill="#607a91"/>
+<circle cx="139" cy="225" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="139" y="230" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<rect x="180" y="186" width="150" height="54" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="255" y="209" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">開発活動</text><text x="255" y="233" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">案件の遂行</text>
+<rect x="344" y="305" width="150" height="54" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="419" y="328" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">経験</text><text x="419" y="352" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">障害対応・判断</text>
+<rect x="281" y="497" width="150" height="54" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="356" y="520" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">標準・Skill</text><text x="356" y="544" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">形式化・配布</text>
+<rect x="79" y="497" width="150" height="54" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="154" y="520" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">生産性向上</text><text x="154" y="544" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">工数減・品質向上</text>
+<rect x="16" y="305" width="150" height="54" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="91" y="328" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">改善機会</text><text x="91" y="352" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">余力と知見</text>
+<circle cx="255" cy="385" r="30" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="255" y="394" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">R</text>
+<circle cx="745" cy="385" r="172" fill="none" stroke="#607a91" stroke-width="3"/>
+<polygon points="874.4,271.2 865.9,251.4 854.6,262.7" fill="#607a91"/>
+<circle cx="885" cy="245" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="885" y="250" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="858.8,514.4 878.6,505.9 867.3,494.6" fill="#607a91"/>
+<circle cx="885" cy="525" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="885" y="530" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="615.6,498.8 624.1,518.6 635.4,507.3" fill="#607a91"/>
+<circle cx="605" cy="525" r="12" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="605" y="530" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">+</text>
+<polygon points="631.2,255.6 611.4,264.1 622.7,275.4" fill="#c0604a"/>
+<circle cx="605" cy="245" r="12" fill="#fcfdfd" stroke="#c0604a" stroke-width="2"/>
+<text x="605" y="250" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">-</text>
+<rect x="665" y="186" width="160" height="54" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="745" y="209" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">AI実装量の増加</text><text x="745" y="233" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">流入が増える</text>
+<rect x="837" y="358" width="160" height="54" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="917" y="381" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">レビュー待ち増加</text><text x="917" y="405" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">滞留Stock</text>
+<rect x="665" y="530" width="160" height="54" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="745" y="553" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">リードタイム悪化</text><text x="745" y="577" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">提供速度の低下</text>
+<rect x="493" y="358" width="160" height="54" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="573" y="381" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">完了量の制約</text><text x="573" y="405" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">投入を抑える圧力</text>
+<circle cx="745" cy="385" r="30" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="745" y="394" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">B</text>
 <text x="250" y="630" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">成立条件：経験が検証・共有され、標準やSkillへ反映されること</text>
 <text x="750" y="630" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">対策：WIP制限、レビュー自動化、承認権限の再設計</text>
 <text x="500" y="672" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">＋は同方向、−は逆方向の因果。Rは＋だけで増幅し、Bは−を1つ含み目標との偏差を縮める。経験が個人に閉じるとRは途中で断絶する</text>

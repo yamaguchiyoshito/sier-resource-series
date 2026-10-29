@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="495" viewBox="0 0 1000 495" role="img" aria-label="小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="478" viewBox="0 0 1000 478" role="img" aria-label="小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
 <text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">探索投資の段階的な判断：ゲートごとに続行か撤退かを決める</text>
-<rect x="50" y="205" width="215" height="130" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="158" y="266" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">小規模な技術検証</text><text x="158" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">数十時間・1〜2名</text>
-<polygon points="295,240 319,270 295,300 271,270" fill="#fff" stroke="#c0604a" stroke-width="2"/>
-<text x="295" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">G1</text>
-<path d="M321.0 270.0 L329.0 270.0" stroke="#607a91" stroke-width="2" fill="none"/><polygon points="339.0,270.0 327.0,277.0 327.0,263.0" fill="#607a91"/>
-<path d="M295.0 302.0 L295.0 338.0" stroke="#c0604a" stroke-width="2" fill="none" stroke-dasharray="8 6"/><polygon points="295.0,348.0 288.0,336.0 302.0,336.0" fill="#c0604a"/>
-<text x="295" y="368" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">撤退</text>
-<text x="295" y="386" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">学びを記録</text>
-<rect x="339" y="205" width="195" height="130" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="436" y="266" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">技術成立性</text><text x="436" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">動くか、再現するか</text>
-<polygon points="564,240 588,270 564,300 540,270" fill="#fff" stroke="#c0604a" stroke-width="2"/>
-<text x="564" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">G2</text>
-<path d="M590.0 270.0 L598.0 270.0" stroke="#607a91" stroke-width="2" fill="none"/><polygon points="608.0,270.0 596.0,277.0 596.0,263.0" fill="#607a91"/>
-<path d="M564.0 302.0 L564.0 338.0" stroke="#c0604a" stroke-width="2" fill="none" stroke-dasharray="8 6"/><polygon points="564.0,348.0 557.0,336.0 571.0,336.0" fill="#c0604a"/>
-<text x="564" y="368" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">撤退</text>
-<text x="564" y="386" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">学びを記録</text>
-<rect x="608" y="205" width="175" height="130" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="696" y="266" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">実務適用性</text><text x="696" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">案件で使えるか</text>
-<polygon points="813,240 837,270 813,300 789,270" fill="#fff" stroke="#c0604a" stroke-width="2"/>
-<text x="813" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">G3</text>
-<path d="M839.0 270.0 L847.0 270.0" stroke="#607a91" stroke-width="2" fill="none"/><polygon points="857.0,270.0 845.0,277.0 845.0,263.0" fill="#607a91"/>
-<path d="M813.0 302.0 L813.0 338.0" stroke="#c0604a" stroke-width="2" fill="none" stroke-dasharray="8 6"/><polygon points="813.0,348.0 806.0,336.0 820.0,336.0" fill="#c0604a"/>
-<text x="813" y="368" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">撤退</text>
-<text x="813" y="386" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">学びを記録</text>
-<rect x="857" y="205" width="155" height="130" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="934" y="266" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">経済価値</text><text x="934" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">純便益と回収期間</text>
-<path d="M1016.0 270.0 L1036.0 270.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="1046.0,270.0 1034.0,277.0 1034.0,263.0" fill="#607a91"/>
-<rect x="1048" y="215" width="185" height="110" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="1140" y="266" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">既存能力の深化へ</text><text x="1140" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">標準・CI・Skillとして展開</text>
-<text x="500" y="440" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）</text>
-<text x="500" y="470" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める</text>
+<rect x="30" y="190" width="160" height="120" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="110" y="246" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">小規模な技術検証</text><text x="110" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">数十時間・1〜2名</text>
+<polygon points="216,224 238,250 216,276 194,250" fill="#fff" stroke="#c0604a" stroke-width="2"/>
+<text x="216" y="255" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">G1</text>
+<path d="M240.0 250.0 L244.0 250.0" stroke="#607a91" stroke-width="2" fill="none"/><polygon points="254.0,250.0 242.0,257.0 242.0,243.0" fill="#607a91"/>
+<path d="M216.0 278.0 L216.0 314.0" stroke="#c0604a" stroke-width="2" fill="none" stroke-dasharray="8 6"/><polygon points="216.0,324.0 209.0,312.0 223.0,312.0" fill="#c0604a"/>
+<text x="216" y="344" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">撤退</text>
+<text x="216" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">学びを記録</text>
+<rect x="256" y="190" width="150" height="120" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="331" y="246" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">技術成立性</text><text x="331" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">動くか、再現するか</text>
+<polygon points="432,224 454,250 432,276 410,250" fill="#fff" stroke="#c0604a" stroke-width="2"/>
+<text x="432" y="255" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">G2</text>
+<path d="M456.0 250.0 L460.0 250.0" stroke="#607a91" stroke-width="2" fill="none"/><polygon points="470.0,250.0 458.0,257.0 458.0,243.0" fill="#607a91"/>
+<path d="M432.0 278.0 L432.0 314.0" stroke="#c0604a" stroke-width="2" fill="none" stroke-dasharray="8 6"/><polygon points="432.0,324.0 425.0,312.0 439.0,312.0" fill="#c0604a"/>
+<text x="432" y="344" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">撤退</text>
+<text x="432" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">学びを記録</text>
+<rect x="472" y="190" width="140" height="120" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="542" y="246" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">実務適用性</text><text x="542" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">案件で使えるか</text>
+<polygon points="638,224 660,250 638,276 616,250" fill="#fff" stroke="#c0604a" stroke-width="2"/>
+<text x="638" y="255" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">G3</text>
+<path d="M662.0 250.0 L666.0 250.0" stroke="#607a91" stroke-width="2" fill="none"/><polygon points="676.0,250.0 664.0,257.0 664.0,243.0" fill="#607a91"/>
+<path d="M638.0 278.0 L638.0 314.0" stroke="#c0604a" stroke-width="2" fill="none" stroke-dasharray="8 6"/><polygon points="638.0,324.0 631.0,312.0 645.0,312.0" fill="#c0604a"/>
+<text x="638" y="344" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">撤退</text>
+<text x="638" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">学びを記録</text>
+<rect x="678" y="190" width="130" height="120" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="743" y="246" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">経済価値</text><text x="743" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">純便益と回収期間</text>
+<path d="M812.0 250.0 L820.0 250.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="830.0,250.0 818.0,257.0 818.0,243.0" fill="#607a91"/>
+<rect x="832" y="200" width="150" height="100" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="907" y="246" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">既存能力の深化へ</text><text x="907" y="270" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">Skill・CIへ展開</text>
+<text x="500" y="420" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）</text>
+<text x="500" y="450" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める</text>
 </svg>

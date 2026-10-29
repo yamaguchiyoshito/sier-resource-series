@@ -355,10 +355,10 @@ def fig_03_feedback_loops():
     body.append(text(250, 96, '強化ループ R：成果が次の成果を生む', 18, 700, T1))
     body.append(text(750, 96, '抑制ループ B：成長が新しい制約を生む', 18, 700, T1))
     body.append(f'<path d="M500 86 V650" stroke="{STROKE}" stroke-width="1" stroke-dasharray="4 6"/>')
-    body += loop(250, 385, 185, [('開発活動', '案件の遂行'), ('経験', '障害対応・判断'), ('標準・Skill', '形式化・配布'), ('生産性向上', '工数減・品質向上'), ('改善機会', '余力と知見')],
+    body += loop(255, 385, 172, [('開発活動', '案件の遂行'), ('経験', '障害対応・判断'), ('標準・Skill', '形式化・配布'), ('生産性向上', '工数減・品質向上'), ('改善機会', '余力と知見')],
                  150, 54, 'R', polarity=['+', '+', '+', '+', '+'])
-    body += loop(750, 385, 185, [('AI実装量の増加', '流入が増える'), ('レビュー待ち増加', '滞留Stock'), ('リードタイム悪化', '提供速度の低下'), ('完了量の制約', '投入を抑える圧力')],
-                 176, 54, 'B', fill_offset=2, polarity=['+', '+', '+', '-'])
+    body += loop(745, 385, 172, [('AI実装量の増加', '流入が増える'), ('レビュー待ち増加', '滞留Stock'), ('リードタイム悪化', '提供速度の低下'), ('完了量の制約', '投入を抑える圧力')],
+                 160, 54, 'B', fill_offset=2, polarity=['+', '+', '+', '-'])
     body.append(text(250, 630, '成立条件：経験が検証・共有され、標準やSkillへ反映されること', 14, 400, MUTED))
     body.append(text(750, 630, '対策：WIP制限、レビュー自動化、承認権限の再設計', 14, 400, MUTED))
     body.append(note(672, '＋は同方向、−は逆方向の因果。Rは＋だけで増幅し、Bは−を1つ含み目標との偏差を縮める。経験が個人に閉じるとRは途中で断絶する'))
@@ -522,26 +522,25 @@ def fig_04_mr_lifecycle():
 
 def fig_04_stage_gate():
     body = [title('探索投資の段階的な判断：ゲートごとに続行か撤退かを決める')]
-    stages = [('小規模な技術検証', '数十時間・1〜2名', 215), ('技術成立性', '動くか、再現するか', 195), ('実務適用性', '案件で使えるか', 175), ('経済価値', '純便益と回収期間', 155)]
-    x = 50; yc = 270
+    stages = [('小規模な技術検証', '数十時間・1〜2名', 160), ('技術成立性', '動くか、再現するか', 150), ('実務適用性', '案件で使えるか', 140), ('経済価値', '純便益と回収期間', 130)]
+    x = 30; yc = 250; hh = 120
     for i, (h, s, w) in enumerate(stages):
-        hh = 130
         body.append(box(x, yc - hh / 2, w, hh, FILLS[i], h, s, hs=16, ss=14))
         if i < len(stages) - 1:
-            gx = x + w + 30
-            body.append(f'<polygon points="{gx},{yc - 30} {gx + 24},{yc} {gx},{yc + 30} {gx - 24},{yc}" fill="#fff" stroke="{ACCENT}" stroke-width="2"/>')
+            gx = x + w + 26
+            body.append(f'<polygon points="{gx},{yc - 26} {gx + 22},{yc} {gx},{yc + 26} {gx - 22},{yc}" fill="#fff" stroke="{ACCENT}" stroke-width="2"/>')
             body.append(text(gx, yc + 5, f'G{i + 1}', 14, 700, ACCENT))
-            body.append(arrow(gx + 26, yc, gx + 44, yc, width=2))
-            body.append(arrow(gx, yc + 32, gx, yc + 78, color=ACCENT, width=2, dashed=True))
-            body.append(text(gx, yc + 98, '撤退', 14, 700, ACCENT)); body.append(text(gx, yc + 116, '学びを記録', 14, 400, MUTED))
-            x = gx + 44
+            body.append(arrow(gx + 24, yc, gx + 38, yc, width=2))
+            body.append(arrow(gx, yc + 28, gx, yc + 74, color=ACCENT, width=2, dashed=True))
+            body.append(text(gx, yc + 94, '撤退', 14, 700, ACCENT)); body.append(text(gx, yc + 112, '学びを記録', 14, 400, MUTED))
+            x = gx + 40
         else:
             x = x + w
-    body.append(arrow(x + 4, yc, x + 34, yc, width=3))
-    body.append(box(x + 36, yc - 55, 185, 110, FILLS[4], '既存能力の深化へ', '標準・CI・Skillとして展開', hs=16, ss=14))
-    body.append(text(500, 440, '投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）', 15, 700, T1))
-    body.append(note(470, '短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める'))
-    return svg(1000, 495, '小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図', body)
+    body.append(arrow(x + 4, yc, x + 22, yc, width=3))
+    body.append(box(x + 24, yc - 50, 150, 100, FILLS[4], '既存能力の深化へ', 'Skill・CIへ展開', hs=16, ss=14))
+    body.append(text(500, 420, '投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）', 15, 700, T1))
+    body.append(note(450, '短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める'))
+    return svg(1000, 478, '小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図', body)
 
 
 # =====================================================================
