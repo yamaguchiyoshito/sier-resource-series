@@ -366,6 +366,167 @@ def fig_06_operating_cycle():
     return svg(1000, 730, '測る、制約を特定する、配分する、実行する、資産化する、再評価するの6段階を円環で示した経営の運転サイクル', body)
 
 
+# ---------- 2巡目 ----------
+def fig_02_theory_timeline():
+    body = [title('経営資源論の発展：保有から組み合わせへ、そして変革能力へ')]
+    def X(year): return 80 + (year - 1955) * (840 / 55)
+    bands = [('資源の保有', 1959, 1991, FILLS[0]), ('資源の組み合わせ', 1989, 1997, FILLS[1]), ('資源そのものを変革する能力', 1997, 2008, FILLS[3])]
+    for i, (lab, a, b, fill) in enumerate(bands):
+        y = 96 + i * 44
+        body.append(f'<rect x="{X(a):.0f}" y="{y}" width="{X(b) - X(a):.0f}" height="34" rx="8" fill="{fill}" stroke="{STROKE}"/>')
+        body.append(text((X(a) + X(b)) / 2, y + 23, lab, 14, 700, T1))
+    ay = 262
+    body.append(f'<path d="M{X(1955)} {ay} H{X(2010)}" stroke="{STROKE}" stroke-width="2"/>')
+    for yr in range(1960, 2011, 10):
+        body.append(f'<path d="M{X(yr):.0f} {ay - 5} v10" stroke="{STROKE}" stroke-width="2"/>'); body.append(text(X(yr), ay - 12, str(yr), 12, 400, MUTED))
+    events = [(1959, 'ペンローズ', '企業成長の理論', '資源と、資源が提供する', 'サービスは異なる'),
+              (1989, 'ディーリックス／クール', '資産ストックの蓄積', '買える資源と', '蓄積する資源を区別'),
+              (1991, 'バーニー', '資源ベース理論（RBV）', '希少性・模倣困難性が', '競争優位を左右する'),
+              (1996, 'グラント', '知識ベース理論（KBV）', '企業は専門知識を', '統合する仕組み'),
+              (1997, 'ティースら', 'ダイナミック・ケイパビリティ', '資源を再構成する', '能力が経営能力'),
+              (2007, 'ティース', '変革能力の3要素', 'Sensing・Seizing・', 'Transforming')]
+    cw = 148; gap = (1000 - 60 * 2 - cw * 6) / 5
+    for i, (yr, who, what, l1, l2) in enumerate(events):
+        cx = 60 + cw / 2 + i * (cw + gap); top = 320
+        body.append(f'<circle cx="{X(yr):.0f}" cy="{ay}" r="7" fill="{LINE}" stroke="#fff" stroke-width="2"/>')
+        body.append(f'<path d="M{X(yr):.0f} {ay + 8} L{cx:.0f} {top}" stroke="{LINE}" stroke-width="1.5"/>')
+        body.append(f'<rect x="{cx - cw / 2:.0f}" y="{top}" width="{cw}" height="118" rx="10" fill="#fff" stroke="{STROKE}"/>')
+        body.append(text(cx, top + 22, str(yr), 12, 700, LINE)); body.append(text(cx, top + 44, who, 13.5, 700, T1))
+        body.append(text(cx, top + 66, what, 12, 400, T2)); body.append(text(cx, top + 88, l1, 11.5, 400, MUTED)); body.append(text(cx, top + 104, l2, 11.5, 400, MUTED))
+    body.append(note(482, '視点は「何を持つか」から「どう組み合わせるか」、さらに「資源と能力そのものをどう作り替えるか」へ移ってきた'))
+    return svg(1000, 510, 'ペンローズ（1959）からティース（2007）までの経営資源論の系譜と、保有から組み合わせ、変革能力への視点の移行', body)
+
+
+def fig_02_asset_stock_bathtub():
+    body = [title('買える資源と、蓄積しなければ得られない資源')]
+    def tub(x, label, examples, water_h, tap_w, fast):
+        body.append(text(x + 180, 110, label, 19, 700, T1))
+        body.append(f'<path d="M{x} 200 V380 Q{x} 410 {x + 30} 410 H{x + 330} Q{x + 360} 410 {x + 360} 380 V200" fill="#fff" stroke="{LINE}" stroke-width="3"/>')
+        body.append(f'<path d="M{x + 6} {410 - 6 - water_h} V378 Q{x + 6} 404 {x + 30} 404 H{x + 330} Q{x + 354} 404 {x + 354} 378 V{410 - 6 - water_h} Z" fill="{FILLS[0]}"/>')
+        body.append(f'<rect x="{x + 180 - tap_w / 2:.0f}" y="150" width="{tap_w}" height="30" rx="4" fill="{LINE}"/>')
+        body.append(f'<rect x="{x + 100}" y="140" width="{80 + tap_w / 2:.0f}" height="12" rx="4" fill="{LINE}"/>')
+        n = 6 if fast else 2
+        for k in range(n):
+            dx = (k - (n - 1) / 2) * (tap_w / max(n - 1, 1) * 0.8 if n > 1 else 0)
+            body.append(f'<path d="M{x + 180 + dx:.0f} 184 v{200 - water_h - 10}" stroke="{FILLS[0]}" stroke-width="{4 if fast else 3}" stroke-dasharray="6 5"/>')
+        for i, e in enumerate(examples):
+            body.append(text(x + 180, 440 + i * 20, e, 13, 400, MUTED))
+    tub(80, '購入・調達できる資源', ['AIモデルのAPI利用権、CI/CDサービス', 'テスト自動化ツール、外部の専門技術者'], 150, 60, True)
+    body.append(text(260, 300, '蛇口を開ければすぐ満たせる', 14, 700, LINE))
+    tub(560, '内部で蓄積する必要がある資源', ['AIを使いこなす組織能力、検証の習慣', 'システム固有のテスト知識、チーム間の協調関係'], 60, 18, False)
+    body.append(text(740, 300, '流入速度に上限があり、時間がかかる', 14, 700, ACCENT))
+    body.append(f'<path d="M920 395 H975" stroke="{ACCENT}" stroke-width="3" stroke-dasharray="6 4"/>')
+    body.append(text(948, 384, '陳腐化・離職で流出', 11, 700, ACCENT))
+    body.append(note(500, 'ディーリックス／クール（1989）の資産ストックの比喩。', 15))
+    body.append(note(522, '資金を一気に投じても蓄積資産の流入は速くならず、この時間差が競争優位の持続性を生む', 15))
+    return svg(1000, 548, '蛇口を開ければすぐ満たせる購入資源の浴槽と、流入速度に上限がある蓄積資源の浴槽の比較', body)
+
+
+def fig_04_mr_lifecycle():
+    body = [title('MRのライフサイクルと計測点')]
+    xs = [120, 320, 520, 720, 920]; y = 250
+    events = [('MR作成', ''), ('レビュー可能状態', 'Draft解除／レビュー依頼'), ('初回レビュー', '最初のコメント・承認'), ('承認', '必要承認数の充足'), ('マージ', '対象ブランチへ統合')]
+    body.append(f'<path d="M{xs[0]} {y} H{xs[-1]}" stroke="{STROKE}" stroke-width="3"/>')
+    for x, (h, s) in zip(xs, events):
+        body.append(f'<circle cx="{x}" cy="{y}" r="11" fill="{BG}" stroke="{LINE}" stroke-width="3"/>')
+        body.append(text(x, y - 36, h, 16, 700, T1)); body.append(text(x, y - 18, s, 12, 400, MUTED))
+    def bracket(a, b, yy, label, color=LINE, bold=True):
+        body.append(f'<path d="M{a} {yy - 8} V{yy} H{b} V{yy - 8}" stroke="{color}" stroke-width="2" fill="none"/>')
+        body.append(text((a + b) / 2, yy + 20, label, 14, 700 if bold else 400, color))
+    bracket(xs[1], xs[2], 300, 'レビュー待ち時間（レビュー制約）', ACCENT)
+    bracket(xs[2], xs[3], 300, 'レビュー作業・差し戻し', LINE)
+    bracket(xs[3], xs[4], 300, '統合待ち（CI・コンフリクト）', LINE)
+    bracket(xs[0], xs[4], 370, 'MRリードタイム（統合速度）', T1)
+    body.append(f'<rect x="{xs[0]}" y="128" width="{xs[-1] - xs[0]}" height="34" rx="8" fill="{FILLS[2]}" stroke="{STROKE}"/>')
+    body.append(text(520, 150, 'Open MR ＝ 作成済みで未マージ（期末の件数が滞留Stock）', 14, 700, T1))
+    body.append(text(xs[0], 100, 'MR作成数', 13, 700, LINE)); body.append(text(xs[0], 116, '週次の流入量', 12, 400, MUTED))
+    body.append(text(xs[-1], 100, 'MRマージ数', 13, 700, LINE)); body.append(text(xs[-1], 116, '週次の処理能力', 12, 400, MUTED))
+    body.append(text(500, 445, '手戻り率：初回レビュー以降に差し戻しが発生したMRの割合　／　レビュアー負荷：担当中のOpen MR数と必要レビュー工数', 13, 400, MUTED))
+    body.append(note(490, '「レビュー可能状態」をDraft解除時刻にするかレビュー依頼イベントにするかで待ち時間が変わる。組織で定義を統一してから計測する'))
+    return svg(1000, 520, 'MR作成、レビュー可能状態、初回レビュー、承認、マージの5つの計測点と、レビュー待ち時間・MRリードタイムなどの区間の対応', body)
+
+
+def fig_04_stage_gate():
+    body = [title('探索投資の段階的な判断：ゲートごとに続行か撤退かを決める')]
+    stages = [('小規模な技術検証', '数十時間・1〜2名', 300), ('技術成立性', '動くか、再現するか', 250), ('実務適用性', '案件で使えるか、誰が保守するか', 200), ('経済価値', '純便益と回収期間', 150)]
+    x = 60; y0 = 160
+    for i, (h, s, hh) in enumerate(stages):
+        w = 190; y = y0 + (300 - hh) / 2
+        body.append(box(x, y, w, hh, FILLS[i], h, s, hs=17, ss=12))
+        if i < len(stages) - 1:
+            gx = x + w + 20
+            body.append(f'<polygon points="{gx + 10},{y0 + 120} {gx + 30},{y0 + 150} {gx + 10},{y0 + 180} {gx - 10},{y0 + 150}" fill="#fff" stroke="{ACCENT}" stroke-width="2"/>')
+            body.append(text(gx + 10, y0 + 154, f'G{i + 1}', 12, 700, ACCENT))
+            body.append(arrow(gx + 32, y0 + 150, gx + 48, y0 + 150, width=2))
+            body.append(arrow(gx + 10, y0 + 182, gx + 10, y0 + 230, color=ACCENT, width=2, dashed=True))
+            body.append(text(gx + 10, y0 + 248, '撤退', 12, 700, ACCENT)); body.append(text(gx + 10, y0 + 264, '学びを記録', 11, 400, MUTED))
+        x += w + 60
+    body.append(arrow(x - 60 + 10, y0 + 150, x - 60 + 40, y0 + 150, width=3))
+    body.append(box(x - 20, y0 + 95, 200, 110, FILLS[4], '既存能力の深化へ', '標準・CI・Skillとして展開', hs=16, ss=12))
+    body.append(text(500, 470, '投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）', 15, 700, T1))
+    body.append(note(500, '短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める'))
+    return svg(1000, 525, '小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図', body)
+
+
+def fig_05_knowledge_scenarios():
+    params = read_csv('05-knowledge-params.csv')
+    series = {}
+    for r in params:
+        K = float(r['K0']); a, b, d, E, R = (float(r[k]) for k in ('alpha', 'beta', 'delta', 'E', 'R'))
+        vals = [K]
+        for _ in range(int(r['periods'])):
+            K = (1 - d) * K + a * E + b * R; vals.append(round(K, 2))
+        series[r['scenario']] = (r['label'], vals)
+    # 系列CSVを書き出す（記事からのリンク先）
+    with (SIM / '05-knowledge-scenarios.csv').open('w', encoding='utf-8', newline='') as f:
+        w = csv.writer(f); w.writerow(['period', *series.keys()])
+        for i in range(len(next(iter(series.values()))[1])):
+            w.writerow([i, *(series[s][1][i] for s in series)])
+    body = [title('知識資産の蓄積：変換効率と陳腐化で到達点が変わる')]
+    X0, X1, Y0, Y1 = 110, 860, 500, 110; vmax = 260; n = 10
+    def px(i): return X0 + (X1 - X0) * i / n
+    def py(v): return Y0 - (Y0 - Y1) * v / vmax
+    body.append(f'<path d="M{X0} {Y1 - 10} V{Y0} H{X1 + 10}" stroke="{STROKE}" stroke-width="2" fill="none"/>')
+    for v in range(0, vmax + 1, 50):
+        body.append(text(X0 - 12, py(v) + 5, str(v), 13, anchor='end')); body.append(f'<path d="M{X0} {py(v):.1f} H{X1}" stroke="{STROKE}" stroke-width="1" stroke-dasharray="2 6"/>')
+    for i in range(n + 1):
+        body.append(text(px(i), Y0 + 24, str(i), 13))
+    body.append(text((X0 + X1) / 2, Y0 + 50, '期（年）', 14, 700, T1))
+    body.append(text(50, (Y0 + Y1) / 2, '知識資産指数 K', 14, 700, T1, 'middle', f' transform="rotate(-90 50 {(Y0 + Y1) / 2:.0f})"'))
+    colors = {'base': LINE, 'low_alpha': ACCENT, 'high_delta': '#8a6cc1'}
+    for j, (key, (label, vals)) in enumerate(series.items()):
+        pts = ' '.join(f'{px(i):.1f},{py(v):.1f}' for i, v in enumerate(vals))
+        body.append(f'<polyline points="{pts}" fill="none" stroke="{colors[key]}" stroke-width="3"/>')
+        body.append(f'<circle cx="{px(n):.1f}" cy="{py(vals[-1]):.1f}" r="5" fill="{colors[key]}"/>')
+        body.append(text(px(n) + 12, py(vals[-1]) + 5, f'{vals[-1]:.0f}', 14, 700, colors[key], 'start'))
+        ly = Y1 + 12 + j * 24
+        body.append(f'<rect x="{X0 + 20}" y="{ly - 6}" width="28" height="6" rx="3" fill="{colors[key]}"/>')
+        body.append(text(X0 + 58, ly + 1, label, 13.5, 700, colors[key], 'start'))
+    body.append(text(500, 580, 'K(t+1) = (1−δ)K(t) + αE + βR。E=30（案件経験）、R=10（改善投資）、β=1.0、K0=100', 14, 400, T2))
+    body.append(note(606, '仮想値。案件経験が同じでも、変換効率αが低ければ組織知は増えず、保守を怠ればδが上がって到達点が下がる'))
+    return svg(1000, 635, '知識資産指数の10期の推移。基準シナリオは250へ向かい、変換効率が低いと160、陳腐化が速いと125で頭打ちになる', body)
+
+
+def fig_06_formula_hierarchy():
+    body = [title('問いの階層：下の問いは上の問いの答えを前提にする')]
+    layers = [('蓄積', '資源はどう増減するか', 'S(t+1) = S(t) + A(t) − D(t)　／　K(t+1) = (1−δ)K(t) + αE(t) + βR(t)', '第2回・第3回・第5回'),
+              ('流れ', '仕事はどれだけ滞留するか', 'L = λW　／　Wq = ρ ÷ ( μ(1−ρ) )', '第4回'),
+              ('配分', '資源をどこへ配分するか', 'max V(x)  s.t.  Ax ≤ b　／　MVi = ∂V/∂xi', '第4回'),
+              ('投資評価', '共通資産は割に合うか', 'V_asset = Σ(ΔCi − C_apply,i) − C_build − C_maint', '第2回・第3回・第5回'),
+              ('境界', '内製か外注か', 'C_internal  vs.  C_external + C_coordination + C_risk', '第5回')]
+    y = 90
+    for i, (h, q, f, ref) in enumerate(layers):
+        w = 560 + i * 80; x = 500 - w / 2
+        body.append(f'<rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="76" rx="12" fill="{FILLS[i]}" stroke="{STROKE}"/>')
+        body.append(text(x + 18, y + 30, f'{i + 1}. {h}', 18, 700, T1, 'start')); body.append(text(x + 18, y + 54, q, 13, 400, MUTED, 'start'))
+        body.append(text(x + w - 18, y + 30, f, 14, 400, T1, 'end')); body.append(text(x + w - 18, y + 54, ref, 12, 400, MUTED, 'end'))
+        if i < len(layers) - 1:
+            body.append(arrow(500, y + 76, 500, y + 76 + 22, width=2))
+        y += 98
+    body.append(note(y + 20, '滞留を測らずに配分は決められず、資産の価値を測らずに内製と外注は比べられない。上の段の答えが下の段の入力になる'))
+    return svg(1000, y + 50, '蓄積、流れ、配分、投資評価、境界の5段に連載の数式を対応させ、上の段の答えが下の段の前提になることを示す図', body)
+
+
 FIGURES = {
     '01-conversion-chain.svg': fig_01_conversion_chain,
     '02-four-dimensions.svg': fig_02_four_dimensions,
@@ -380,6 +541,12 @@ FIGURES = {
     '05-constraint-shift.svg': fig_05_constraint_shift,
     '05-organization-model.svg': fig_05_organization_model,
     '06-operating-cycle.svg': fig_06_operating_cycle,
+    '02-theory-timeline.svg': fig_02_theory_timeline,
+    '02-asset-stock-bathtub.svg': fig_02_asset_stock_bathtub,
+    '04-mr-lifecycle.svg': fig_04_mr_lifecycle,
+    '04-stage-gate.svg': fig_04_stage_gate,
+    '05-knowledge-scenarios.svg': fig_05_knowledge_scenarios,
+    '06-formula-hierarchy.svg': fig_06_formula_hierarchy,
 }
 
 

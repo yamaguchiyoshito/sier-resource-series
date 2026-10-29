@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img" aria-label="ペンローズ（1959）からティース（2007）までの経営資源論の系譜と、保有から組み合わせ、変革能力への視点の移行">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">経営資源論の発展：保有から組み合わせへ、そして変革能力へ</text>
+<rect x="141" y="96" width="489" height="34" rx="8" fill="#e1edf8" stroke="#8ea6b2"/>
+<text x="385" y="119" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#223e53">資源の保有</text>
+<rect x="599" y="140" width="122" height="34" rx="8" fill="#e0f0e9" stroke="#8ea6b2"/>
+<text x="660" y="163" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#223e53">資源の組み合わせ</text>
+<rect x="721" y="184" width="168" height="34" rx="8" fill="#e9e4f5" stroke="#8ea6b2"/>
+<text x="805" y="207" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#223e53">資源そのものを変革する能力</text>
+<path d="M80.0 262 H920.0" stroke="#8ea6b2" stroke-width="2"/>
+<path d="M156 257 v10" stroke="#8ea6b2" stroke-width="2"/>
+<text x="156" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">1960</text>
+<path d="M309 257 v10" stroke="#8ea6b2" stroke-width="2"/>
+<text x="309" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">1970</text>
+<path d="M462 257 v10" stroke="#8ea6b2" stroke-width="2"/>
+<text x="462" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">1980</text>
+<path d="M615 257 v10" stroke="#8ea6b2" stroke-width="2"/>
+<text x="615" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">1990</text>
+<path d="M767 257 v10" stroke="#8ea6b2" stroke-width="2"/>
+<text x="767" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">2000</text>
+<path d="M920 257 v10" stroke="#8ea6b2" stroke-width="2"/>
+<text x="920" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">2010</text>
+<circle cx="141" cy="262" r="7" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<path d="M141 270 L134 320" stroke="#607a91" stroke-width="1.5"/>
+<rect x="60" y="320" width="148" height="118" rx="10" fill="#fff" stroke="#8ea6b2"/>
+<text x="134" y="342" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#607a91">1959</text>
+<text x="134" y="364" text-anchor="middle" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#223e53">ペンローズ</text>
+<text x="134" y="386" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">企業成長の理論</text>
+<text x="134" y="408" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">資源と、資源が提供する</text>
+<text x="134" y="424" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">サービスは異なる</text>
+<circle cx="599" cy="262" r="7" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<path d="M599 270 L280 320" stroke="#607a91" stroke-width="1.5"/>
+<rect x="206" y="320" width="148" height="118" rx="10" fill="#fff" stroke="#8ea6b2"/>
+<text x="280" y="342" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#607a91">1989</text>
+<text x="280" y="364" text-anchor="middle" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#223e53">ディーリックス／クール</text>
+<text x="280" y="386" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">資産ストックの蓄積</text>
+<text x="280" y="408" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">買える資源と</text>
+<text x="280" y="424" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">蓄積する資源を区別</text>
+<circle cx="630" cy="262" r="7" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<path d="M630 270 L427 320" stroke="#607a91" stroke-width="1.5"/>
+<rect x="353" y="320" width="148" height="118" rx="10" fill="#fff" stroke="#8ea6b2"/>
+<text x="427" y="342" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#607a91">1991</text>
+<text x="427" y="364" text-anchor="middle" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#223e53">バーニー</text>
+<text x="427" y="386" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">資源ベース理論（RBV）</text>
+<text x="427" y="408" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">希少性・模倣困難性が</text>
+<text x="427" y="424" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">競争優位を左右する</text>
+<circle cx="706" cy="262" r="7" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<path d="M706 270 L573 320" stroke="#607a91" stroke-width="1.5"/>
+<rect x="499" y="320" width="148" height="118" rx="10" fill="#fff" stroke="#8ea6b2"/>
+<text x="573" y="342" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#607a91">1996</text>
+<text x="573" y="364" text-anchor="middle" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#223e53">グラント</text>
+<text x="573" y="386" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">知識ベース理論（KBV）</text>
+<text x="573" y="408" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">企業は専門知識を</text>
+<text x="573" y="424" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">統合する仕組み</text>
+<circle cx="721" cy="262" r="7" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<path d="M721 270 L720 320" stroke="#607a91" stroke-width="1.5"/>
+<rect x="646" y="320" width="148" height="118" rx="10" fill="#fff" stroke="#8ea6b2"/>
+<text x="720" y="342" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#607a91">1997</text>
+<text x="720" y="364" text-anchor="middle" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#223e53">ティースら</text>
+<text x="720" y="386" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">ダイナミック・ケイパビリティ</text>
+<text x="720" y="408" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">資源を再構成する</text>
+<text x="720" y="424" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">能力が経営能力</text>
+<circle cx="874" cy="262" r="7" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<path d="M874 270 L866 320" stroke="#607a91" stroke-width="1.5"/>
+<rect x="792" y="320" width="148" height="118" rx="10" fill="#fff" stroke="#8ea6b2"/>
+<text x="866" y="342" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#607a91">2007</text>
+<text x="866" y="364" text-anchor="middle" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#223e53">ティース</text>
+<text x="866" y="386" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">変革能力の3要素</text>
+<text x="866" y="408" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">Sensing・Seizing・</text>
+<text x="866" y="424" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#5d6c75">Transforming</text>
+<text x="500" y="482" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">視点は「何を持つか」から「どう組み合わせるか」、さらに「資源と能力そのものをどう作り替えるか」へ移ってきた</text>
+</svg>

@@ -44,7 +44,7 @@ sier-resource-series/
 ├── references/bibliography.md # 参考文献と確認範囲
 ├── site-src/styles.css        # 閲覧サイトのスタイル
 ├── scripts/
-│   ├── draw_figures.py        # 追加図版（13点）を simulation/*.csv から決定論的に生成
+│   ├── draw_figures.py        # 追加図版（19点）を simulation/*.csv から決定論的に生成
 │   ├── build.py               # Markdown → _site/（HTML、MathML）
 │   └── check_html.py          # _site/ のリンク・数式・スクリプト不在を検査
 ├── .github/workflows/pages.yml# mainへのpushでビルドしGitHub Pagesへ公開
@@ -85,4 +85,4 @@ python3 scripts/check_html.py
 4. 引用・参考文献は各記事末尾と `references/bibliography.md` で確認する。掲載した出典は研究や理論を参照するものであり、仮想計算の実績根拠ではない。
 5. 顧客固有情報や権利上再利用できない成果物は共通資産へ転用しない。
 6. 記事を追加・改題したときは `series.json` と本READMEの目次を更新し、`scripts/build.py` と `scripts/check_html.py` を通す。
-7. `scripts/draw_figures.py` が生成する図（01-conversion-chain 以降の13点）は手で編集せず、スクリプトとCSVを直して再生成する。初期の10点（ChatGPT出力）は手で編集してよい。
+7. `scripts/draw_figures.py` が生成する図（01-conversion-chain 以降の19点）は手で編集せず、スクリプトとCSVを直して再生成する。初期の10点（ChatGPT出力）は手で編集してよい。

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="635" viewBox="0 0 1000 635" role="img" aria-label="知識資産指数の10期の推移。基準シナリオは250へ向かい、変換効率が低いと160、陳腐化が速いと125で頭打ちになる">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">知識資産の蓄積：変換効率と陳腐化で到達点が変わる</text>
+<path d="M110 100 V500 H870" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<text x="98" y="505" text-anchor="end" font-family="sans-serif" font-size="13" fill="#36556d">0</text>
+<path d="M110 500.0 H860" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="430" text-anchor="end" font-family="sans-serif" font-size="13" fill="#36556d">50</text>
+<path d="M110 425.0 H860" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="355" text-anchor="end" font-family="sans-serif" font-size="13" fill="#36556d">100</text>
+<path d="M110 350.0 H860" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="280" text-anchor="end" font-family="sans-serif" font-size="13" fill="#36556d">150</text>
+<path d="M110 275.0 H860" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="205" text-anchor="end" font-family="sans-serif" font-size="13" fill="#36556d">200</text>
+<path d="M110 200.0 H860" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="130" text-anchor="end" font-family="sans-serif" font-size="13" fill="#36556d">250</text>
+<path d="M110 125.0 H860" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="110" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">0</text>
+<text x="185" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">1</text>
+<text x="260" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">2</text>
+<text x="335" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">3</text>
+<text x="410" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">4</text>
+<text x="485" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">5</text>
+<text x="560" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">6</text>
+<text x="635" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">7</text>
+<text x="710" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">8</text>
+<text x="785" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">9</text>
+<text x="860" y="524" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">10</text>
+<text x="485" y="550" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#223e53">期（年）</text>
+<text x="50" y="305" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#223e53" transform="rotate(-90 50 305)">知識資産指数 K</text>
+<polyline points="110.0,350.0 185.0,327.5 260.0,307.2 335.0,289.0 410.0,272.6 485.0,257.9 560.0,244.6 635.0,232.6 710.0,221.9 785.0,212.2 860.0,203.4" fill="none" stroke="#607a91" stroke-width="3"/>
+<circle cx="860.0" cy="203.4" r="5" fill="#607a91"/>
+<text x="872" y="208" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">198</text>
+<rect x="130" y="116" width="28" height="6" rx="3" fill="#607a91"/>
+<text x="168" y="123" text-anchor="start" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#607a91">基準（α=0.5・δ=0.10）</text>
+<polyline points="110.0,350.0 185.0,341.0 260.0,332.9 335.0,325.6 410.0,319.1 485.0,313.1 560.0,307.8 635.0,303.0 710.0,298.7 785.0,294.9 860.0,291.4" fill="none" stroke="#c0604a" stroke-width="3"/>
+<circle cx="860.0" cy="291.4" r="5" fill="#c0604a"/>
+<text x="872" y="296" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">139</text>
+<rect x="130" y="140" width="28" height="6" rx="3" fill="#c0604a"/>
+<text x="168" y="147" text-anchor="start" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#c0604a">変換効率が低い（α=0.2）</text>
+<polyline points="110.0,350.0 185.0,342.5 260.0,336.5 335.0,331.7 410.0,327.9 485.0,324.8 560.0,322.3 635.0,320.4 710.0,318.8 785.0,317.5 860.0,316.5" fill="none" stroke="#8a6cc1" stroke-width="3"/>
+<circle cx="860.0" cy="316.5" r="5" fill="#8a6cc1"/>
+<text x="872" y="322" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#8a6cc1">122</text>
+<rect x="130" y="164" width="28" height="6" rx="3" fill="#8a6cc1"/>
+<text x="168" y="171" text-anchor="start" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#8a6cc1">保守不足で陳腐化が速い（δ=0.20）</text>
+<text x="500" y="580" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">K(t+1) = (1−δ)K(t) + αE + βR。E=30（案件経験）、R=10（改善投資）、β=1.0、K0=100</text>
+<text x="500" y="606" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">仮想値。案件経験が同じでも、変換効率αが低ければ組織知は増えず、保守を怠ればδが上がって到達点が下がる</text>
+</svg>
