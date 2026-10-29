@@ -649,8 +649,8 @@ def fig_05_autonomy_matrix():
     body.append(f'<path d="M{dx:.0f} {dy:.0f} L{X0 + bw * 3.0:.0f} {Y1 + bh * 4.7:.0f}" stroke="{ACCENT}" stroke-width="1.5"/>')
     body.append(f'<circle cx="{dx:.0f}" cy="{dy:.0f}" r="8" fill="{ACCENT}" stroke="#fff" stroke-width="2"/>')
     body.append(text(X0 + bw * 2.95, Y1 + bh * 4.75, '例：決済金額の計算ロジック変更 → A0〜A1', 14, 700, ACCENT, 'end'))
-    body.append(note(628, '提案モデル（公的規格ではない）。自律度はAIの能力ではなく、失敗の影響と独立検証で検出できる確率で決める'))
-    return svg(1000, 655, '失敗の影響と検証可能性の2軸にA0からA4の自律度を配置した図。UI表示修正は高自律、決済ロジック変更は低自律', body)
+    body.append(note(662, '提案モデル（公的規格ではない）。自律度はAIの能力ではなく、失敗の影響と独立検証で検出できる確率で決める'))
+    return svg(1000, 690, '失敗の影響と検証可能性の2軸にA0からA4の自律度を配置した図。UI表示修正は高自律、決済ロジック変更は低自律', body)
 
 
 def fig_05_constraint_shift():
