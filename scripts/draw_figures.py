@@ -521,26 +521,31 @@ def fig_04_mr_lifecycle():
 
 
 def fig_04_stage_gate():
+    """文字は箱の上部、矢印とゲートは箱の下部のレーン（y=290）に置く。動く版では粒がこのレーンを通る。"""
     body = [title('探索投資の段階的な判断：ゲートごとに続行か撤退かを決める')]
     stages = [('小規模な技術検証', '数十時間・1〜2名', 160), ('技術成立性', '動くか、再現するか', 150), ('実務適用性', '案件で使えるか', 140), ('経済価値', '純便益と回収期間', 130)]
-    x = 30; yc = 250; hh = 120
+    x = 30; top = 190; hh = 120; lane = 290
     for i, (h, s, w) in enumerate(stages):
-        body.append(box(x, yc - hh / 2, w, hh, FILLS[i], h, s, hs=16, ss=14))
+        body.append(f'<rect x="{x}" y="{top}" width="{w}" height="{hh}" rx="12" fill="{FILLS[i]}" stroke="{STROKE}"/>')
+        body.append(text(x + w / 2, top + 36, h, 16, 700, T1)); body.append(text(x + w / 2, top + 60, s, 14))
+        body.append(f'<path d="M{x + 14} {lane} H{x + w - 14}" stroke="{STROKE}" stroke-width="2" stroke-dasharray="3 5"/>')
         if i < len(stages) - 1:
             gx = x + w + 26
-            body.append(f'<polygon points="{gx},{yc - 26} {gx + 22},{yc} {gx},{yc + 26} {gx - 22},{yc}" fill="#fff" stroke="{ACCENT}" stroke-width="2"/>')
-            body.append(text(gx, yc + 5, f'G{i + 1}', 14, 700, ACCENT))
-            body.append(arrow(gx + 24, yc, gx + 38, yc, width=2))
-            body.append(arrow(gx, yc + 28, gx, yc + 74, color=ACCENT, width=2, dashed=True))
-            body.append(text(gx, yc + 94, '撤退', 14, 700, ACCENT)); body.append(text(gx, yc + 112, '学びを記録', 14, 400, MUTED))
+            body.append(f'<polygon points="{gx},{lane - 22} {gx + 22},{lane} {gx},{lane + 22} {gx - 22},{lane}" fill="#fff" stroke="{ACCENT}" stroke-width="2"/>')
+            body.append(text(gx, lane + 5, f'G{i + 1}', 14, 700, ACCENT))
+            body.append(arrow(x + w, lane, gx - 24, lane, width=2)); body.append(arrow(gx + 24, lane, gx + 38, lane, width=2))
+            body.append(arrow(gx, lane + 24, gx, lane + 66, color=ACCENT, width=2, dashed=True))
+            body.append(text(gx, lane + 86, '撤退', 14, 700, ACCENT)); body.append(text(gx, lane + 104, '学びを記録', 14, 400, MUTED))
             x = gx + 40
         else:
             x = x + w
-    body.append(arrow(x + 4, yc, x + 22, yc, width=3))
-    body.append(box(x + 24, yc - 50, 150, 100, FILLS[4], '既存能力の深化へ', 'Skill・CIへ展開', hs=16, ss=14))
-    body.append(text(500, 420, '投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）', 15, 700, T1))
-    body.append(note(450, '短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める'))
-    return svg(1000, 478, '小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図', body)
+    body.append(arrow(x + 4, lane, x + 22, lane, width=3))
+    body.append(f'<rect x="{x + 24}" y="{top + 10}" width="150" height="100" rx="12" fill="{FILLS[4]}" stroke="{STROKE}"/>')
+    body.append(text(x + 99, top + 46, '既存能力の深化へ', 16, 700, T1)); body.append(text(x + 99, top + 70, 'Skill・CIへ展開', 14))
+    body.append(f'<path d="M{x + 38} {lane} H{x + 160}" stroke="{STROKE}" stroke-width="2" stroke-dasharray="3 5"/>')
+    body.append(text(500, 430, '投入資源は段階ごとに増やし、評価基準は段階ごとに変える（成立性 → 適用性 → 経済価値）', 15, 700, T1))
+    body.append(note(460, '短期ROIだけで評価すると能力が形成される前に打ち切られ、評価せずに続ければ資源を消耗する。撤退条件を事前に決める'))
+    return svg(1000, 488, '小規模な技術検証から技術成立性、実務適用性、経済価値の3つのゲートを経て既存能力の深化へ進み、各ゲートで撤退も選ぶ段階投資の図', body)
 
 
 # =====================================================================

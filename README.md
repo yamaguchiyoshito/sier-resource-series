@@ -39,12 +39,15 @@ sier-resource-series/
 │   ├── 05-ai-sier-model.md
 │   └── 06-series-summary.md
 ├── assets/                    # 図（SVG）。ファイル名は記事の連載番号で始める
+│   ├── animated/              # トラフィックが流れるアニメーション版（SMIL SVG、6秒ループ）
+│   └── gif/                   # 同じ動きのGIF（800px・15fps・90フレーム）
 ├── simulation/                # 図の元データ（CSV）
 ├── guides/READING.md          # 読み方と表示環境
 ├── references/bibliography.md # 参考文献と確認範囲
 ├── site-src/styles.css        # 閲覧サイトのスタイル
 ├── scripts/
 │   ├── draw_figures.py        # 全図版（29点）を決定論的に生成。データ図は simulation/*.csv を読む
+│   ├── animate_figures.py     # 動く版（SVG＋GIF）を生成。rsvg-convert と ffmpeg が必要
 │   ├── build.py               # Markdown → _site/（HTML、MathML）
 │   └── check_html.py          # _site/ のリンク・数式・スクリプト不在を検査
 ├── .github/workflows/pages.yml# mainへのpushでビルドしGitHub Pagesへ公開
@@ -63,6 +66,7 @@ Python 3.11以降とPandoc 3.xを使う。Python標準ライブラリだけで�
 
 ```sh
 python3 scripts/draw_figures.py   # 図版を再生成（図やCSVを変えたとき）
+python3 scripts/animate_figures.py   # 動く版を再生成（--no-gif でSVGのみ。GIFには rsvg-convert と ffmpeg が必要）
 python3 scripts/build.py
 python3 scripts/check_html.py
 ```
@@ -86,3 +90,4 @@ python3 scripts/check_html.py
 5. 顧客固有情報や権利上再利用できない成果物は共通資産へ転用しない。
 6. 記事を追加・改題したときは `series.json` と本READMEの目次を更新し、`scripts/build.py` と `scripts/check_html.py` を通す。
 7. `assets/` の図はすべて `scripts/draw_figures.py` が生成する。SVGを手で編集せず、スクリプトとCSVを直して再生成する。文字は14px以上（本文では720pxに縮小表示される）。
+8. 動く版（`assets/animated/`、`assets/gif/`）は `scripts/animate_figures.py` が生成する。周期6秒、文字と箱は動かさない、t=0とt=6の状態を一致させる。
