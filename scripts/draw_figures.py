@@ -761,10 +761,28 @@ FIGURES = {
 }
 
 
+def check_bounds(name: str, s: str) -> None:
+    """図形（rect/polygon）とテキストのアンカー点が viewBox の外に出ていないか検査する。"""
+    import re
+    W = int(re.search(r'viewBox="0 0 (\d+)', s).group(1)); H = int(re.search(r'viewBox="0 0 \d+ (\d+)', s).group(1))
+    mx = my = 0.0
+    for m in re.finditer(r'<rect x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)"', s):
+        mx = max(mx, float(m.group(1)) + float(m.group(3))); my = max(my, float(m.group(2)) + float(m.group(4)))
+    for m in re.finditer(r'points="([^"]+)"', s):
+        for pt in m.group(1).split():
+            x, y = pt.split(','); mx = max(mx, float(x)); my = max(my, float(y))
+    for m in re.finditer(r'<text x="(\d+)" y="(\d+)"', s):
+        mx = max(mx, float(m.group(1))); my = max(my, float(m.group(2)))
+    if mx > W or my > H:
+        raise ValueError(f'{name}: 要素が枠外に出ている（x最大 {mx:.0f}/{W}、y最大 {my:.0f}/{H}）')
+
+
 def main() -> int:
     ASSETS.mkdir(exist_ok=True)
     for name, fn in FIGURES.items():
-        (ASSETS / name).write_text(fn(), encoding='utf-8')
+        content = fn()
+        check_bounds(name, content)
+        (ASSETS / name).write_text(content, encoding='utf-8')
     print(f'wrote {len(FIGURES)} figures')
     return 0
 
