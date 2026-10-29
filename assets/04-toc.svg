@@ -1,27 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-label="制約理論（TOC）の5ステップ">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="735" viewBox="0 0 1000 735" role="img" aria-label="制約を特定し、活用し、他を従属させ、能力を高め、再評価するという5ステップが循環する図">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
-<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">制約理論（TOC）の5ステップ</text>
-<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
-<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">1 制約を特定</text>
-<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">レビュー待ち、検証環境、要求承認など</text>
-<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
-<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">2 制約を活用</text>
-<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">制約工程の無駄・手戻り・中断を減らす</text>
-<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
-<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">3 他工程を従属</text>
-<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">仕掛かり量を制約の処理能力に合わせる</text>
-<path d="M500 373 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 390 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="400" width="800" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
-<text x="500" y="431" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">4 制約能力を増強</text>
-<text x="500" y="459" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">追加投資・自動化・教育・体制改善</text>
-<path d="M500 481 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 498 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="508" width="800" height="80" rx="12" fill="#edf0f3" stroke="#8ea6b2"/>
-<text x="500" y="539" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">5 再評価し循環</text>
-<text x="500" y="567" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">制約が移動したら改善対象を変える</text>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">制約理論（TOC）の5つの集中ステップ：制約は移動する</text>
+<circle cx="500" cy="405" r="235" fill="none" stroke="#607a91" stroke-width="3"/>
+<polygon points="647.0,221.3 635.6,203.1 626.1,216.1" fill="#607a91"/>
+<polygon points="720.1,488.1 733.9,471.5 718.7,466.6" fill="#607a91"/>
+<polygon points="489.0,640.0 509.0,648.0 509.0,632.0" fill="#607a91"/>
+<polygon points="273.1,467.2 271.7,488.7 286.9,483.7" fill="#607a91"/>
+<polygon points="370.8,208.4 349.9,213.7 359.3,226.6" fill="#607a91"/>
+<rect x="365" y="140" width="270" height="60" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="500" y="166" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">① 制約を特定する</text><text x="500" y="190" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">MR作成→マージの時間を分析</text>
+<rect x="588" y="302" width="270" height="60" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="723" y="328" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">② 制約を最大限活用する</text><text x="723" y="352" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">観点標準化・事前CI・MR分割</text>
+<rect x="503" y="565" width="270" height="60" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="638" y="591" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">③ 他の活動を制約に従属させる</text><text x="638" y="615" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">実装の開始量を調整する</text>
+<rect x="227" y="565" width="270" height="60" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="362" y="591" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">④ 制約の能力を高める</text><text x="362" y="615" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">レビュアー育成・AI一次レビュー</text>
+<rect x="142" y="302" width="270" height="60" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="277" y="328" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">⑤ 制約を再評価する</text><text x="277" y="352" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">次の制約：検証・承認・要求</text>
+<text x="500" y="398" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">制約が解消すると</text>
+<text x="500" y="422" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">次の制約へ移る</text>
+<text x="500" y="705" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">特に重要なのは③。非制約工程に「余力があるから」と作業を投入すると滞留が増える。投入量は制約の処理能力に合わせる</text>
 </svg>

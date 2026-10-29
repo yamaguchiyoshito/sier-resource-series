@@ -1,30 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" role="img" aria-label="共通資産への投資：累積純削減工数"><rect width="100%" height="100%" fill="#ffffff"/>
-<text x="55" y="52" font-family="sans-serif" font-size="27" font-weight="bold" fill="#243b53">共通資産への投資：累積純削減工数</text>
-<line x1="105" y1="460.0" x2="950" y2="460.0" stroke="#e3e9ed"/>
-<text x="93" y="465.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">-568.0</text>
-<line x1="105" y1="389.0" x2="950" y2="389.0" stroke="#e3e9ed"/>
-<text x="93" y="394.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">3.2</text>
-<line x1="105" y1="318.0" x2="950" y2="318.0" stroke="#e3e9ed"/>
-<text x="93" y="323.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">574.4</text>
-<line x1="105" y1="247.0" x2="950" y2="247.0" stroke="#e3e9ed"/>
-<text x="93" y="252.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">1145.6</text>
-<line x1="105" y1="176.0" x2="950" y2="176.0" stroke="#e3e9ed"/>
-<text x="93" y="181.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">1716.8</text>
-<line x1="105" y1="105.0" x2="950" y2="105.0" stroke="#e3e9ed"/>
-<text x="93" y="110.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">2288.0</text>
-<text x="105.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">1</text>
-<text x="316.2" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">2</text>
-<text x="527.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">3</text>
-<text x="738.8" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">4</text>
-<text x="950.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">5</text>
-<polyline points="105.0,439.1 316.2,364.5 527.5,290.0 738.8,215.4 950.0,140.8" fill="none" stroke="#277eae" stroke-width="4" stroke-linejoin="round"/>
-<circle cx="105.0" cy="439.1" r="5" fill="#277eae"/>
-<circle cx="316.2" cy="364.5" r="5" fill="#277eae"/>
-<circle cx="527.5" cy="290.0" r="5" fill="#277eae"/>
-<circle cx="738.8" cy="215.4" r="5" fill="#277eae"/>
-<circle cx="950.0" cy="140.8" r="5" fill="#277eae"/>
-<line x1="105" y1="522" x2="140" y2="522" stroke="#277eae" stroke-width="4"/>
-<text x="148" y="528" font-family="sans-serif" font-size="16" fill="#3c5363">累積純削減工数</text>
-<text x="500.0" y="495" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">経過年</text>
-<text x="22" y="285.0" transform="rotate(-90 22 285.0)" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">時間</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="共通Skill投資の累積純削減工数。1年目は−400時間、2年目に+200時間で回収し、5年目に2,000時間">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">共通資産への投資：累積純削減工数（仮想）</text>
+<path d="M120 470.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="475" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">-500</text>
+<path d="M120 410.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="415" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M120 350.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="355" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">500</text>
+<path d="M120 290.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="295" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">1,000</text>
+<path d="M120 230.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="235" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">1,500</text>
+<path d="M120 170.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="175" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">2,000</text>
+<path d="M120 110.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="108" y="115" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">2,500</text>
+<path d="M120.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="120" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M270.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="270" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">1</text>
+<path d="M420.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="420" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">2</text>
+<path d="M570.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="570" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">3</text>
+<path d="M720.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="720" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">4</text>
+<path d="M870.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="870" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">5</text>
+<path d="M120 104 V470 H876" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<path d="M120 410.0 H870" stroke="#223e53" stroke-width="1.5"/>
+<text x="495" y="522" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">経過年</text>
+<text x="58" y="290" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53" transform="rotate(-90 58 290)">累積純削減工数（時間）</text>
+<polyline points="270.0,458.0 420.0,386.0 570.0,314.0 720.0,242.0 870.0,170.0" fill="none" stroke="#607a91" stroke-width="3"/>
+<circle cx="270.0" cy="458.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="420.0" cy="386.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="570.0" cy="314.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="720.0" cy="242.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="870.0" cy="170.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<text x="882" y="175" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">2,000時間</text>
+<rect x="138" y="118" width="28" height="6" rx="3" fill="#607a91"/>
+<text x="176" y="125" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">累積純削減工数 N(y) = 600y − 1000</text>
+<text x="282" y="480" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">1年目 −400時間（投資が先行）</text>
+<circle cx="420.0" cy="386.0" r="8" fill="#5aa06f" stroke="#fff" stroke-width="2"/>
+<text x="434" y="374" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#5aa06f">2年目に累積がプラスへ（+200時間）</text>
+<text x="500" y="560" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">構築1,000時間、年20案件×40時間削減、保守200時間/年。API費用、品質差、資金の時間価値、需要不確実性は含まない</text>
 </svg>

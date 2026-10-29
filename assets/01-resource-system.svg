@@ -1,23 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="592" viewBox="0 0 1000 592" role="img" aria-label="経営資源から価値を生み出す循環">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="575" viewBox="0 0 1000 575" role="img" aria-label="経営資源が組織能力を経て顧客価値と収益になり、再投資と能力蓄積を通じて経営資源へ戻る循環">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
-<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">経営資源から価値を生み出す循環</text>
-<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
-<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">経営資源</text>
-<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">人的・技術・財務・知識・組織・関係・権利</text>
-<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
-<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">組織能力</text>
-<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">資源を組み合わせ、反復可能な仕事へ変換</text>
-<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
-<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">顧客価値と収益</text>
-<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">成果物・信頼・対価を獲得</text>
-<path d="M500 373 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 390 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="400" width="800" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
-<text x="500" y="431" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">再投資と能力蓄積</text>
-<text x="500" y="459" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">利益と経験を次の生産力へ転換</text>
-<text x="500" y="572" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#5d6c75">循環を成立させるには、学習・改善・再配分が必要</text>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">経営資源から価値を生み出す循環</text>
+<rect x="140" y="90" width="760" height="82" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="127" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#223e53">経営資源</text><text x="520" y="151" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">人的・技術・財務・知識・組織・関係・権利</text>
+<path d="M520.0 172.0 L520.0 190.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,200.0 513.0,188.0 527.0,188.0" fill="#607a91"/>
+<rect x="140" y="200" width="760" height="82" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="237" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#223e53">組織能力</text><text x="520" y="261" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">資源を組み合わせ、反復可能な仕事へ変換する</text>
+<path d="M520.0 282.0 L520.0 300.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,310.0 513.0,298.0 527.0,298.0" fill="#607a91"/>
+<rect x="140" y="310" width="760" height="82" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="347" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#223e53">顧客価値と収益</text><text x="520" y="371" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">成果物・信頼・対価を獲得する</text>
+<path d="M520.0 392.0 L520.0 410.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,420.0 513.0,408.0 527.0,408.0" fill="#607a91"/>
+<rect x="140" y="420" width="760" height="82" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="457" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#223e53">再投資と能力蓄積</text><text x="520" y="481" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">利益と経験を次の生産力へ転換する</text>
+<path d="M140 461 H70 V131 H128" stroke="#607a91" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="140.0,131.0 128.0,138.0 128.0,124.0" fill="#607a91"/>
+<text x="70" y="300" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91" transform="rotate(-90 70 300)">再投入</text>
+<text x="500" y="548" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">循環を成立させるには、学習・改善・再配分が必要。再投入（破線）が無ければ一方向の投入→成果で終わる</text>
 </svg>

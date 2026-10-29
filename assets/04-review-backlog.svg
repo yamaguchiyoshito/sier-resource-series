@@ -1,56 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" role="img" aria-label="レビュー滞留の増加（仮想）"><rect width="100%" height="100%" fill="#ffffff"/>
-<text x="55" y="52" font-family="sans-serif" font-size="27" font-weight="bold" fill="#243b53">レビュー滞留の増加（仮想）</text>
-<line x1="105" y1="460.0" x2="950" y2="460.0" stroke="#e3e9ed"/>
-<text x="93" y="465.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">-12.6</text>
-<line x1="105" y1="389.0" x2="950" y2="389.0" stroke="#e3e9ed"/>
-<text x="93" y="394.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">30.2</text>
-<line x1="105" y1="318.0" x2="950" y2="318.0" stroke="#e3e9ed"/>
-<text x="93" y="323.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">73.1</text>
-<line x1="105" y1="247.0" x2="950" y2="247.0" stroke="#e3e9ed"/>
-<text x="93" y="252.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">115.9</text>
-<line x1="105" y1="176.0" x2="950" y2="176.0" stroke="#e3e9ed"/>
-<text x="93" y="181.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">158.8</text>
-<line x1="105" y1="105.0" x2="950" y2="105.0" stroke="#e3e9ed"/>
-<text x="93" y="110.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">201.6</text>
-<text x="105.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">0</text>
-<text x="189.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">1</text>
-<text x="274.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">2</text>
-<text x="358.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">3</text>
-<text x="443.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">4</text>
-<text x="527.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">5</text>
-<text x="612.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">6</text>
-<text x="696.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">7</text>
-<text x="781.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">8</text>
-<text x="865.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">9</text>
-<text x="950.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">10</text>
-<polyline points="105.0,439.1 189.5,425.9 274.0,412.6 358.5,399.3 443.0,386.1 527.5,372.8 612.0,359.6 696.5,346.3 781.0,333.0 865.5,319.8 950.0,306.5" fill="none" stroke="#277eae" stroke-width="4" stroke-linejoin="round"/>
-<circle cx="105.0" cy="439.1" r="5" fill="#277eae"/>
-<circle cx="189.5" cy="425.9" r="5" fill="#277eae"/>
-<circle cx="274.0" cy="412.6" r="5" fill="#277eae"/>
-<circle cx="358.5" cy="399.3" r="5" fill="#277eae"/>
-<circle cx="443.0" cy="386.1" r="5" fill="#277eae"/>
-<circle cx="527.5" cy="372.8" r="5" fill="#277eae"/>
-<circle cx="612.0" cy="359.6" r="5" fill="#277eae"/>
-<circle cx="696.5" cy="346.3" r="5" fill="#277eae"/>
-<circle cx="781.0" cy="333.0" r="5" fill="#277eae"/>
-<circle cx="865.5" cy="319.8" r="5" fill="#277eae"/>
-<circle cx="950.0" cy="306.5" r="5" fill="#277eae"/>
-<line x1="105" y1="522" x2="140" y2="522" stroke="#277eae" stroke-width="4"/>
-<text x="148" y="528" font-family="sans-serif" font-size="16" fill="#3c5363">実装20件/日</text>
-<polyline points="105.0,439.1 189.5,409.3 274.0,379.5 358.5,349.6 443.0,319.8 527.5,290.0 612.0,260.1 696.5,230.3 781.0,200.5 865.5,170.6 950.0,140.8" fill="none" stroke="#cb765a" stroke-width="4" stroke-linejoin="round"/>
-<circle cx="105.0" cy="439.1" r="5" fill="#cb765a"/>
-<circle cx="189.5" cy="409.3" r="5" fill="#cb765a"/>
-<circle cx="274.0" cy="379.5" r="5" fill="#cb765a"/>
-<circle cx="358.5" cy="349.6" r="5" fill="#cb765a"/>
-<circle cx="443.0" cy="319.8" r="5" fill="#cb765a"/>
-<circle cx="527.5" cy="290.0" r="5" fill="#cb765a"/>
-<circle cx="612.0" cy="260.1" r="5" fill="#cb765a"/>
-<circle cx="696.5" cy="230.3" r="5" fill="#cb765a"/>
-<circle cx="781.0" cy="200.5" r="5" fill="#cb765a"/>
-<circle cx="865.5" cy="170.6" r="5" fill="#cb765a"/>
-<circle cx="950.0" cy="140.8" r="5" fill="#cb765a"/>
-<line x1="335" y1="522" x2="370" y2="522" stroke="#cb765a" stroke-width="4"/>
-<text x="378" y="528" font-family="sans-serif" font-size="16" fill="#3c5363">実装30件/日</text>
-<text x="500.0" y="495" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">経過営業日</text>
-<text x="22" y="285.0" transform="rotate(-90 22 285.0)" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">未レビューMR数</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="実装20件/日と30件/日の未レビューMR数の推移。10営業日後にそれぞれ80件と180件になる">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">レビュー滞留の増加（仮想）：実装を速めるほど未レビューが積み上がる</text>
+<path d="M110 470.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="475" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M110 398.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="403" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">40</text>
+<path d="M110 326.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="331" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">80</text>
+<path d="M110 254.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="259" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">120</text>
+<path d="M110 182.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="187" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">160</text>
+<path d="M110 110.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="115" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">200</text>
+<path d="M110.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="110" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M186.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="186" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">1</text>
+<path d="M262.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="262" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">2</text>
+<path d="M338.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="338" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">3</text>
+<path d="M414.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="414" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">4</text>
+<path d="M490.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="490" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">5</text>
+<path d="M566.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="566" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">6</text>
+<path d="M642.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="642" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">7</text>
+<path d="M718.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="718" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">8</text>
+<path d="M794.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="794" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">9</text>
+<path d="M870.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="870" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">10</text>
+<path d="M110 104 V470 H876" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<text x="490" y="522" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">経過営業日</text>
+<text x="48" y="290" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53" transform="rotate(-90 48 290)">未レビューMR数</text>
+<polyline points="110.0,470.0 186.0,455.6 262.0,441.2 338.0,426.8 414.0,412.4 490.0,398.0 566.0,383.6 642.0,369.2 718.0,354.8 794.0,340.4 870.0,326.0" fill="none" stroke="#607a91" stroke-width="3"/>
+<circle cx="110.0" cy="470.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="186.0" cy="455.6" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="262.0" cy="441.2" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="338.0" cy="426.8" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="414.0" cy="412.4" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="490.0" cy="398.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="566.0" cy="383.6" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="642.0" cy="369.2" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="718.0" cy="354.8" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="794.0" cy="340.4" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="870.0" cy="326.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<text x="882" y="331" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">80件</text>
+<rect x="128" y="118" width="28" height="6" rx="3" fill="#607a91"/>
+<text x="166" y="125" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">実装20件/日（レビュー12件/日）</text>
+<polyline points="110.0,470.0 186.0,437.6 262.0,405.2 338.0,372.8 414.0,340.4 490.0,308.0 566.0,275.6 642.0,243.2 718.0,210.8 794.0,178.4 870.0,146.0" fill="none" stroke="#c0604a" stroke-width="3"/>
+<circle cx="110.0" cy="470.0" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="186.0" cy="437.6" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="262.0" cy="405.2" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="338.0" cy="372.8" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="414.0" cy="340.4" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="490.0" cy="308.0" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="566.0" cy="275.6" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="642.0" cy="243.2" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="718.0" cy="210.8" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="794.0" cy="178.4" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="870.0" cy="146.0" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<text x="882" y="151" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">180件</text>
+<rect x="128" y="142" width="28" height="6" rx="3" fill="#c0604a"/>
+<text x="166" y="149" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">実装30件/日（レビュー12件/日）</text>
+<text x="500" y="560" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">B(d) = max(0, λ − μ) × d。初期滞留0件、毎日一定流入、差し戻し・休日・作業サイズ差・処理変動は考慮しない</text>
 </svg>

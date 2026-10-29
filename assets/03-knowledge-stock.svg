@@ -1,34 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" role="img" aria-label="組織知ストックの推移（仮想）"><rect width="100%" height="100%" fill="#ffffff"/>
-<text x="55" y="52" font-family="sans-serif" font-size="27" font-weight="bold" fill="#243b53">組織知ストックの推移（仮想）</text>
-<line x1="105" y1="460.0" x2="950" y2="460.0" stroke="#e3e9ed"/>
-<text x="93" y="465.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">-11.9</text>
-<line x1="105" y1="389.0" x2="950" y2="389.0" stroke="#e3e9ed"/>
-<text x="93" y="394.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">28.6</text>
-<line x1="105" y1="318.0" x2="950" y2="318.0" stroke="#e3e9ed"/>
-<text x="93" y="323.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">69.1</text>
-<line x1="105" y1="247.0" x2="950" y2="247.0" stroke="#e3e9ed"/>
-<text x="93" y="252.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">109.7</text>
-<line x1="105" y1="176.0" x2="950" y2="176.0" stroke="#e3e9ed"/>
-<text x="93" y="181.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">150.2</text>
-<line x1="105" y1="105.0" x2="950" y2="105.0" stroke="#e3e9ed"/>
-<text x="93" y="110.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">190.7</text>
-<text x="105.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">0</text>
-<text x="245.8" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">1</text>
-<text x="386.7" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">2</text>
-<text x="527.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">3</text>
-<text x="668.3" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">4</text>
-<text x="809.2" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">5</text>
-<text x="950.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">6</text>
-<polyline points="105.0,263.9 245.8,237.7 386.7,214.0 527.5,192.6 668.3,173.6 809.2,156.4 950.0,140.8" fill="none" stroke="#277eae" stroke-width="4" stroke-linejoin="round"/>
-<circle cx="105.0" cy="263.9" r="5" fill="#277eae"/>
-<circle cx="245.8" cy="237.7" r="5" fill="#277eae"/>
-<circle cx="386.7" cy="214.0" r="5" fill="#277eae"/>
-<circle cx="527.5" cy="192.6" r="5" fill="#277eae"/>
-<circle cx="668.3" cy="173.6" r="5" fill="#277eae"/>
-<circle cx="809.2" cy="156.4" r="5" fill="#277eae"/>
-<circle cx="950.0" cy="140.8" r="5" fill="#277eae"/>
-<line x1="105" y1="522" x2="140" y2="522" stroke="#277eae" stroke-width="4"/>
-<text x="148" y="528" font-family="sans-serif" font-size="16" fill="#3c5363">知識資産（年25追加・10%劣化）</text>
-<text x="500.0" y="495" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">年</text>
-<text x="22" y="285.0" transform="rotate(-90 22 285.0)" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">知識資産指数</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="知識資産指数の6年間の推移。毎年追加すると170へ増え、4年目以降に追加を止めると10%の劣化で103まで下がる">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">組織知ストックの推移（仮想）：追加を止めると劣化が上回る</text>
+<path d="M110 470.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="475" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M110 380.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="385" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">50</text>
+<path d="M110 290.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="295" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">100</text>
+<path d="M110 200.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="205" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">150</text>
+<path d="M110 110.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="115" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">200</text>
+<path d="M110.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="110" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M236.7 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="237" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">1</text>
+<path d="M363.3 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="363" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">2</text>
+<path d="M490.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="490" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">3</text>
+<path d="M616.7 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="617" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">4</text>
+<path d="M743.3 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="743" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">5</text>
+<path d="M870.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="870" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">6</text>
+<path d="M110 104 V470 H876" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<text x="490" y="522" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">年</text>
+<text x="48" y="290" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53" transform="rotate(-90 48 290)">知識資産指数</text>
+<polyline points="110.0,290.0 236.7,263.0 363.3,238.7 490.0,216.8 616.7,197.1 743.3,179.4 870.0,163.5" fill="none" stroke="#607a91" stroke-width="3"/>
+<circle cx="110.0" cy="290.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="236.7" cy="263.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="363.3" cy="238.7" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="490.0" cy="216.8" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="616.7" cy="197.1" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="743.3" cy="179.4" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="870.0" cy="163.5" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<text x="882" y="168" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">170</text>
+<rect x="128" y="118" width="28" height="6" rx="3" fill="#607a91"/>
+<text x="166" y="125" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">毎年25を追加、毎年10%劣化</text>
+<polyline points="110.0,290.0 236.7,263.0 363.3,238.7 490.0,216.8 616.7,242.1 743.3,264.9 870.0,285.4" fill="none" stroke="#c0604a" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="110.0" cy="290.0" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="236.7" cy="263.0" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="363.3" cy="238.7" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="490.0" cy="216.8" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="616.7" cy="242.1" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="743.3" cy="264.9" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<circle cx="870.0" cy="285.4" r="4.5" fill="#c0604a" stroke="#fff" stroke-width="1.5"/>
+<text x="882" y="290" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">103</text>
+<rect x="128" y="142" width="28" height="6" rx="3" fill="#c0604a"/>
+<text x="166" y="149" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">4年目以降は追加を停止</text>
+<path d="M490.0 470.0 V110.0" stroke="#8ea6b2" stroke-width="1.5" stroke-dasharray="4 6"/>
+<text x="498" y="119" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">追加停止</text>
+<text x="500" y="560" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">K(t+1) = 0.9 K(t) + 25、K(0) = 100。「知識資産指数」は定義して測る必要があり、図は実測値ではない</text>
 </svg>

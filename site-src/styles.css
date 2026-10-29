@@ -38,9 +38,9 @@ blockquote{margin:22px 0;padding:2px 0 2px 18px;border-left:3px solid var(--acce
 blockquote p:last-child{margin:0}
 
 /* 図版：SVGは幅1000px基準で描かれているため、本文カラム幅までに収め、小さな画面では全幅にする */
-img{display:block;max-width:100%;width:min(100%,660px);height:auto;margin:26px auto 6px;padding:8px;background:#fff;border:1px solid var(--line);border-radius:10px}
+img{display:block;max-width:100%;width:min(100%,720px);height:auto;margin:26px auto 6px;padding:8px;background:#fff;border:1px solid var(--line);border-radius:10px}
 figure{margin:28px 0}
-figcaption,p:has(>em:only-child){font-size:13.5px;line-height:1.65;color:var(--muted);text-align:center;margin:4px auto 22px;max-width:620px}
+figcaption,p:has(>em:only-child){font-size:13.5px;line-height:1.65;color:var(--muted);text-align:center;margin:4px auto 22px;max-width:680px}
 p:has(>em:only-child)+p:has(>em:only-child){margin-top:-14px}
 
 /* 表 */

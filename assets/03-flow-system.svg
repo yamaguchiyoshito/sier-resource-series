@@ -1,28 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-label="Stock・Flow・Transformation・Feedback">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="505" viewBox="0 0 1000 505" role="img" aria-label="保有、投入、変換、成果、蓄積、再投入の6要素が環をなす資源変換システムの基本モデル">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
-<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">Stock・Flow・Transformation・Feedback</text>
-<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
-<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">流入 Flow</text>
-<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">採用・投資・知識獲得・新しい仕事</text>
-<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
-<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">蓄積 Stock</text>
-<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">人的能力・知識資産・未完了作業</text>
-<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
-<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">変換 Transformation</text>
-<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">生産・標準化・教育・自動化</text>
-<path d="M500 373 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 390 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="400" width="800" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
-<text x="500" y="431" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">成果と流出 Output</text>
-<text x="500" y="459" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">顧客価値・利益・消費・陳腐化</text>
-<path d="M500 481 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 498 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="508" width="800" height="80" rx="12" fill="#edf0f3" stroke="#8ea6b2"/>
-<text x="500" y="539" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">フィードバック Feedback</text>
-<text x="500" y="567" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">評価・再投資・ルール更新</text>
-<text x="500" y="680" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#5d6c75">線形表示した概念図。最終段階から前工程へ学習が戻る</text>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">Stock・Flow・Transformation・Feedback：6要素の基本モデル</text>
+<rect x="110" y="110" width="250" height="84" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="235" y="148" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">① 保有 Stock</text><text x="235" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">人的能力・知識資産・共通部品</text>
+<path d="M360.0 152.0 L365.0 152.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="375.0,152.0 363.0,159.0 363.0,145.0" fill="#607a91"/>
+<rect x="375" y="110" width="250" height="84" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="500" y="148" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">② 投入 Flow</text><text x="500" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">採用・投資・案件への配置</text>
+<path d="M625.0 152.0 L630.0 152.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="640.0,152.0 628.0,159.0 628.0,145.0" fill="#607a91"/>
+<rect x="640" y="110" width="250" height="84" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="765" y="148" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">③ 変換 Transformation</text><text x="765" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">生産・標準化・教育・自動化</text>
+<rect x="640" y="300" width="250" height="84" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="765" y="338" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">④ 成果 Output</text><text x="765" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">顧客価値・利益・納品物</text>
+<path d="M640.0 342.0 L635.0 342.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="625.0,342.0 637.0,335.0 637.0,349.0" fill="#607a91"/>
+<rect x="375" y="300" width="250" height="84" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="500" y="338" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">⑤ 蓄積 Accumulation</text><text x="500" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">経験・知識・信頼の増加</text>
+<path d="M375.0 342.0 L370.0 342.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="360.0,342.0 372.0,335.0 372.0,349.0" fill="#607a91"/>
+<rect x="110" y="300" width="250" height="84" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="235" y="338" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">⑥ 再投入 Feedback</text><text x="235" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">評価・再投資・ルール更新</text>
+<path d="M765.0 194.0 L765.0 290.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="765.0,300.0 758.0,288.0 772.0,288.0" fill="#607a91"/>
+<path d="M110 342 H55 V152 H98" stroke="#607a91" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="110.0,152.0 98.0,159.0 98.0,145.0" fill="#607a91"/>
+<text x="55" y="247" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91" transform="rotate(-90 55 247)">循環</text>
+<text x="500" y="445" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">⑥から①へ戻る破線が無ければ、活動は一方向の「投入 → 成果」で終わる</text>
+<text x="500" y="478" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">基礎モデル。実際には変換過程からの消耗・流出と、外部環境からのフィードバックも存在する</text>
 </svg>

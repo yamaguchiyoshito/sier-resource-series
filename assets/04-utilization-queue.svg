@@ -1,40 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" role="img" aria-label="稼働率と待ち時間（M/M/1モデル）"><rect width="100%" height="100%" fill="#ffffff"/>
-<text x="55" y="52" font-family="sans-serif" font-size="27" font-weight="bold" fill="#243b53">稼働率と待ち時間（M/M/1モデル）</text>
-<line x1="105" y1="460.0" x2="950" y2="460.0" stroke="#e3e9ed"/>
-<text x="93" y="465.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">-0.3</text>
-<line x1="105" y1="389.0" x2="950" y2="389.0" stroke="#e3e9ed"/>
-<text x="93" y="394.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">0.8</text>
-<line x1="105" y1="318.0" x2="950" y2="318.0" stroke="#e3e9ed"/>
-<text x="93" y="323.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">2.0</text>
-<line x1="105" y1="247.0" x2="950" y2="247.0" stroke="#e3e9ed"/>
-<text x="93" y="252.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">3.2</text>
-<line x1="105" y1="176.0" x2="950" y2="176.0" stroke="#e3e9ed"/>
-<text x="93" y="181.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">4.3</text>
-<line x1="105" y1="105.0" x2="950" y2="105.0" stroke="#e3e9ed"/>
-<text x="93" y="110.0" text-anchor="end" font-family="sans-serif" font-size="15" fill="#536879">5.5</text>
-<text x="105.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">30</text>
-<text x="198.9" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">40</text>
-<text x="292.8" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">50</text>
-<text x="386.7" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">60</text>
-<text x="480.6" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">70</text>
-<text x="574.4" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">80</text>
-<text x="668.3" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">85</text>
-<text x="762.2" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">90</text>
-<text x="856.1" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">95</text>
-<text x="950.0" y="488" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#536879">98</text>
-<polyline points="105.0,436.5 198.9,435.0 292.8,433.0 386.7,430.0 480.6,424.9 574.4,414.8 668.3,404.6 762.2,384.3 856.1,323.4 950.0,140.8" fill="none" stroke="#277eae" stroke-width="4" stroke-linejoin="round"/>
-<circle cx="105.0" cy="436.5" r="5" fill="#277eae"/>
-<circle cx="198.9" cy="435.0" r="5" fill="#277eae"/>
-<circle cx="292.8" cy="433.0" r="5" fill="#277eae"/>
-<circle cx="386.7" cy="430.0" r="5" fill="#277eae"/>
-<circle cx="480.6" cy="424.9" r="5" fill="#277eae"/>
-<circle cx="574.4" cy="414.8" r="5" fill="#277eae"/>
-<circle cx="668.3" cy="404.6" r="5" fill="#277eae"/>
-<circle cx="762.2" cy="384.3" r="5" fill="#277eae"/>
-<circle cx="856.1" cy="323.4" r="5" fill="#277eae"/>
-<circle cx="950.0" cy="140.8" r="5" fill="#277eae"/>
-<line x1="105" y1="522" x2="140" y2="522" stroke="#277eae" stroke-width="4"/>
-<text x="148" y="528" font-family="sans-serif" font-size="16" fill="#3c5363">レビュー待ち時間</text>
-<text x="500.0" y="495" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">稼働率（%）</text>
-<text x="22" y="285.0" transform="rotate(-90 22 285.0)" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#526a7a">平均待ち時間（日）</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="稼働率30%から98%までの平均待ち時間の曲線。80%で0.4日、95%で1.9日と非線形に増える">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">稼働率と待ち時間（M/M/1モデル）：高稼働ほど待ちは非線形に増える</text>
+<path d="M110 470.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="475" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
+<path d="M110 410.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="415" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">1</text>
+<path d="M110 350.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="355" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">2</text>
+<path d="M110 290.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="295" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">3</text>
+<path d="M110 230.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="235" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">4</text>
+<path d="M110 170.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="175" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">5</text>
+<path d="M110 110.0 H870" stroke="#8ea6b2" stroke-width="1" stroke-dasharray="2 6"/>
+<text x="98" y="115" text-anchor="end" font-family="sans-serif" font-size="14" fill="#36556d">6</text>
+<path d="M110.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="110" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">30</text>
+<path d="M218.6 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="219" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">40</text>
+<path d="M327.1 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="327" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">50</text>
+<path d="M435.7 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="436" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">60</text>
+<path d="M544.3 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="544" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">70</text>
+<path d="M652.9 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="653" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">80</text>
+<path d="M761.4 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="761" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">90</text>
+<path d="M870.0 470 v6" stroke="#8ea6b2" stroke-width="2"/>
+<text x="870" y="494" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">100</text>
+<path d="M110 104 V470 H876" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<text x="490" y="522" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">稼働率（%）</text>
+<text x="48" y="290" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53" transform="rotate(-90 48 290)">平均待ち時間（日）</text>
+<polyline points="110.0,467.4 115.4,467.4 120.9,467.3 126.3,467.2 131.7,467.2 137.1,467.1 142.6,467.0 148.0,467.0 153.4,466.9 158.9,466.8 164.3,466.8 169.7,466.7 175.1,466.6 180.6,466.6 186.0,466.5 191.4,466.4 196.9,466.3 202.3,466.2 207.7,466.2 213.1,466.1 218.6,466.0 224.0,465.9 229.4,465.8 234.9,465.7 240.3,465.7 245.7,465.6 251.1,465.5 256.6,465.4 262.0,465.3 267.4,465.2 272.9,465.1 278.3,465.0 283.7,464.9 289.1,464.8 294.6,464.7 300.0,464.6 305.4,464.5 310.9,464.3 316.3,464.2 321.7,464.1 327.1,464.0 332.6,463.9 338.0,463.8 343.4,463.6 348.9,463.5 354.3,463.4 359.7,463.2 365.1,463.1 370.6,463.0 376.0,462.8 381.4,462.7 386.9,462.5 392.3,462.4 397.7,462.2 403.1,462.0 408.6,461.9 414.0,461.7 419.4,461.5 424.9,461.4 430.3,461.2 435.7,461.0 441.1,460.8 446.6,460.6 452.0,460.4 457.4,460.2 462.9,460.0 468.3,459.8 473.7,459.6 479.1,459.3 484.6,459.1 490.0,458.9 495.4,458.6 500.9,458.4 506.3,458.1 511.7,457.8 517.1,457.5 522.6,457.2 528.0,457.0 533.4,456.6 538.9,456.3 544.3,456.0 549.7,455.7 555.1,455.3 560.6,454.9 566.0,454.6 571.4,454.2 576.9,453.8 582.3,453.4 587.7,452.9 593.1,452.5 598.6,452.0 604.0,451.5 609.4,451.0 614.9,450.5 620.3,449.9 625.7,449.3 631.1,448.7 636.6,448.1 642.0,447.4 647.4,446.7 652.9,446.0 658.3,445.2 663.7,444.4 669.1,443.6 674.6,442.7 680.0,441.7 685.4,440.7 690.9,439.6 696.3,438.5 701.7,437.3 707.1,436.0 712.6,434.6 718.0,433.1 723.4,431.6 728.9,429.8 734.3,428.0 739.7,426.0 745.1,423.8 750.6,421.5 756.0,418.9 761.4,416.0 766.9,412.8 772.3,409.3 777.7,405.4 783.1,401.0 788.6,396.0 794.0,390.3 799.4,383.7 804.9,376.0 810.3,366.9 815.7,356.0 821.1,342.7 826.6,326.0 832.0,304.6 837.4,276.0 842.9,236.0 848.3,176.0 853.7,76.0" fill="none" stroke="#607a91" stroke-width="3"/>
+<polyline points="110.0,467.4 218.6,466.0 327.1,464.0 435.7,461.0 544.3,456.0 652.9,446.0 707.1,436.0 761.4,416.0 815.7,356.0 848.3,176.0" fill="none" stroke="#607a91" stroke-width="3"/>
+<circle cx="110.0" cy="467.4" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="218.6" cy="466.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="327.1" cy="464.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="435.7" cy="461.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="544.3" cy="456.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="652.9" cy="446.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="707.1" cy="436.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="761.4" cy="416.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="815.7" cy="356.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<circle cx="848.3" cy="176.0" r="4.5" fill="#607a91" stroke="#fff" stroke-width="1.5"/>
+<rect x="120.85714285714286" y="116.0" width="28" height="6" rx="3" fill="#607a91"/>
+<text x="159" y="123" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">Wq = ρ / (μ(1−ρ))、μ = 10件/日</text>
+<circle cx="652.9" cy="446.0" r="7" fill="#c0604a" stroke="#fff" stroke-width="2"/>
+<text x="643" y="416" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">80%：0.4日</text>
+<circle cx="815.7" cy="356.0" r="7" fill="#c0604a" stroke="#fff" stroke-width="2"/>
+<text x="806" y="326" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">95%：1.9日</text>
+<text x="457" y="272" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">80% → 95%：15ポイントで待ち時間は4.75倍</text>
+<text x="500" y="560" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">モデル上の値であり実測の予測ではない。複数レビュアー、優先度、差し戻し、レビュー所要時間の分布で変わる</text>
 </svg>

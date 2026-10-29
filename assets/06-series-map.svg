@@ -1,32 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="690" viewBox="0 0 1000 690" role="img" aria-label="連載の全体像：資源から制約へ、制約から経営モデルへ">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-label="第1回から第5回までの流れと、第5回の出口が第1回へ戻る循環を示した連載の全体像">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
-<text x="50" y="51" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">連載の全体像：資源から制約へ、制約から経営モデルへ</text>
-<rect x="100" y="76" width="800" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
-<text x="500" y="107" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">第1回 経営資源とは何か</text>
-<text x="500" y="135" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">保有量ではなく、資源を何に変換できるかを問う</text>
-<path d="M500 157 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 174 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="184" width="800" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
-<text x="500" y="215" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">第2回 分類体系</text>
-<text x="500" y="243" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">種類・性質・能力の階層・戦略価値の多軸で資源を見る</text>
-<path d="M500 265 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 282 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="292" width="800" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
-<text x="500" y="323" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">第3回 流れと変換</text>
-<text x="500" y="351" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">Stock・Flow・Feedbackで企業を動的なシステムとして捉える</text>
-<path d="M500 373 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 390 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="400" width="800" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
-<text x="500" y="431" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">第4回 配分と制約</text>
-<text x="500" y="459" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">全資源の稼働最大化と全体価値の最大化は一致しない</text>
-<path d="M500 481 v24" stroke="#607a91" stroke-width="3"/>
-<path d="M492 498 l8 8 8 -8" fill="none" stroke="#607a91" stroke-width="3"/>
-<rect x="100" y="508" width="800" height="80" rx="12" fill="#f6e4e8" stroke="#8ea6b2"/>
-<text x="500" y="539" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#223e53">第5回 AI時代のSIer経営モデル</text>
-<text x="500" y="567" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#36556d">競争優位は実装速度ではなく、検証・資産化・変革の能力</text>
-<path d="M100 548 H60 V116" fill="none" stroke="#607a91" stroke-width="3" stroke-dasharray="8 6"/>
-<path d="M60 116 H92" stroke="#607a91" stroke-width="3" stroke-dasharray="8 6"/>
-<path d="M84 108 l8 8 -8 8" fill="none" stroke="#607a91" stroke-width="3"/>
-<text x="500" y="640" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#5d6c75">蓄積した能力は次の資源になる。第5回の出口は第1回の入口へ戻る（破線）</text>
-<text x="500" y="668" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">各回の「本稿の問い」は第6回のチェックリストに集約する</text>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">連載の全体像：資源から制約へ、制約から経営モデルへ</text>
+<rect x="140" y="80" width="760" height="80" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="116" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#223e53">第1回 経営資源とは何か</text><text x="520" y="140" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">保有量ではなく、資源を何に変換できるかを問う</text>
+<path d="M520.0 160.0 L520.0 178.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,188.0 513.0,176.0 527.0,176.0" fill="#607a91"/>
+<rect x="140" y="188" width="760" height="80" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="224" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#223e53">第2回 分類体系</text><text x="520" y="248" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">種類・性質・能力の階層・戦略価値の多軸で資源を見る</text>
+<path d="M520.0 268.0 L520.0 286.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,296.0 513.0,284.0 527.0,284.0" fill="#607a91"/>
+<rect x="140" y="296" width="760" height="80" rx="12" fill="#f7e9d4" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="332" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#223e53">第3回 流れと変換</text><text x="520" y="356" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">Stock・Flow・Feedbackで企業を動的なシステムとして捉える</text>
+<path d="M520.0 376.0 L520.0 394.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,404.0 513.0,392.0 527.0,392.0" fill="#607a91"/>
+<rect x="140" y="404" width="760" height="80" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="440" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#223e53">第4回 配分と制約</text><text x="520" y="464" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">全資源の稼働最大化と全体価値の最大化は一致しない</text>
+<path d="M520.0 484.0 L520.0 502.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="520.0,512.0 513.0,500.0 527.0,500.0" fill="#607a91"/>
+<rect x="140" y="512" width="760" height="80" rx="12" fill="#f6e4e8" stroke="#8ea6b2" stroke-width="1"/><text x="520" y="548" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#223e53">第5回 AI時代のSIer経営モデル</text><text x="520" y="572" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">競争優位は実装速度ではなく、検証・資産化・変革の能力</text>
+<path d="M140 552 H70 V120 H128" stroke="#607a91" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="140.0,120.0 128.0,127.0 128.0,113.0" fill="#607a91"/>
+<text x="70" y="336" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91" transform="rotate(-90 70 336)">次の資源へ</text>
+<text x="500" y="650" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">蓄積した能力は次の資源になる。第5回の出口は第1回の入口へ戻る（破線）。各回の「本稿の問い」は第6回のチェックリストに集約する</text>
 </svg>

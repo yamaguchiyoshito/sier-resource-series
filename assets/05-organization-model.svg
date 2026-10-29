@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="525" viewBox="0 0 1000 525" role="img" aria-label="事業・案件組織、プラットフォーム・能力開発組織、探索・変革組織の3つの責任領域と、その間の流れを示す図">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="事業・案件組織、プラットフォーム・能力開発組織、探索・変革組織の3つの責任領域と、その間の流れを示す図">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
-<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">案件組織と資産組織を分離する</text>
-<rect x="60" y="200" width="260" height="130" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="190" y="261" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#223e53">① 事業・案件組織</text><text x="190" y="285" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">顧客価値・納期・収益・品質</text>
-<rect x="370" y="200" width="260" height="130" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/><text x="500" y="261" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">② プラットフォーム・能力開発組織</text><text x="500" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">標準・CI・Skill・評価基盤の保守と展開</text>
-<rect x="680" y="200" width="260" height="130" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/><text x="810" y="261" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#223e53">③ 探索・変革組織</text><text x="810" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">新しいAI能力の検証、将来の工程・事業モデル</text>
-<path d="M320 230 H358" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="370.0,230.0 358.0,237.0 358.0,223.0" fill="#607a91"/>
-<text x="345" y="180" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#607a91">改善要求・案件経験</text>
-<path d="M370 300 H332" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="320.0,300.0 332.0,293.0 332.0,307.0" fill="#607a91"/>
-<text x="345" y="350" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#607a91">標準・Skill・CI・評価基盤</text>
-<path d="M680 230 H642" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="630.0,230.0 642.0,223.0 642.0,237.0" fill="#607a91"/>
-<text x="655" y="180" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#607a91">検証済み技術の移管</text>
-<path d="M630 300 H668" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="680.0,300.0 668.0,307.0 668.0,293.0" fill="#607a91"/>
-<text x="655" y="350" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#607a91">制約・需要・実測データ</text>
-<text x="500" y="410" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">予算・責任・成果指標を分ける。小規模組織では同じメンバーが兼務してよい</text>
-<text x="500" y="440" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">②の提供物は案件の将来原価と生産能力に影響する経営資産。リリース管理・品質保証・サポート・廃止判断まで責任を持つ</text>
-<text x="500" y="495" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">案件遂行と共通能力開発を同じ責任体系で管理すると、共通資産への投資が短期案件の優先順位に押し負けやすい</text>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">案件組織と資産組織を分離する</text>
+<rect x="30" y="190" width="290" height="130" rx="12" fill="#e1edf8" stroke="#8ea6b2" stroke-width="1"/><text x="175" y="251" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">① 事業・案件組織</text><text x="175" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">顧客価値・納期・収益・品質</text>
+<rect x="355" y="190" width="290" height="130" rx="12" fill="#e0f0e9" stroke="#8ea6b2" stroke-width="1"/><text x="500" y="251" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">② プラットフォーム・能力開発組織</text><text x="500" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">標準・CI・Skill・評価基盤の保守</text>
+<rect x="680" y="190" width="290" height="130" rx="12" fill="#e9e4f5" stroke="#8ea6b2" stroke-width="1"/><text x="825" y="251" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">③ 探索・変革組織</text><text x="825" y="275" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">新しいAI能力の検証と将来モデル</text>
+<path d="M320 220 H343" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="355.0,220.0 343.0,227.0 343.0,213.0" fill="#607a91"/>
+<text x="337" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607a91">改善要求・案件経験</text>
+<path d="M355 290 H332" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="320.0,290.0 332.0,283.0 332.0,297.0" fill="#607a91"/>
+<text x="337" y="345" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607a91">標準・Skill・CI・評価基盤</text>
+<path d="M680 220 H657" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="645.0,220.0 657.0,213.0 657.0,227.0" fill="#607a91"/>
+<text x="662" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607a91">検証済み技術の移管</text>
+<path d="M645 290 H668" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="680.0,290.0 668.0,297.0 668.0,283.0" fill="#607a91"/>
+<text x="662" y="345" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607a91">制約・需要・実測データ</text>
+<text x="500" y="405" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">予算・責任・成果指標を分ける。小規模組織では同じメンバーが兼務してよい</text>
+<text x="500" y="435" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">②の提供物は案件の将来原価と生産能力に影響する経営資産。リリース管理・品質保証・サポート・廃止判断まで責任を持つ</text>
+<text x="500" y="490" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">案件遂行と共通能力開発を同じ責任体系で管理すると、共通資産への投資が短期案件の優先順位に押し負けやすい</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="685" viewBox="0 0 1000 685" role="img" aria-label="実装制約とレビュー制約で囲まれた実行可能領域と、両制約の交点にある最適解を示す線形計画の図">
 <rect width="100%" height="100%" fill="#fcfdfd"/>
-<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">2案件の配分問題：実行可能領域と最適解</text>
+<text x="50" y="50" text-anchor="start" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b">2案件の配分問題：実行可能領域と最適解</text>
 <polygon points="130.0,560.0 730.0,560.0 630.0,413.3 130.0,230.0" fill="#e1edf8" stroke="none"/>
 <path d="M130 110 V560 H890" stroke="#8ea6b2" stroke-width="2" fill="none"/>
 <text x="130" y="584" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">0</text>
@@ -27,6 +27,10 @@
 <path d="M130 120.0 h-6" stroke="#8ea6b2" stroke-width="2"/>
 <text x="505" y="612" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">案件Aの単位数 xA</text>
 <text x="60" y="340" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53" transform="rotate(-90 60 340)">案件Bの単位数 xB</text>
+<path d="M130.0 193.3 L505.0 560.0" stroke="#223e53" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.6"/>
+<text x="499" y="552" text-anchor="end" font-family="sans-serif" font-size="14" fill="#5d6c75">200</text>
+<path d="M205.0 120.0 L655.0 560.0" stroke="#223e53" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.6"/>
+<text x="649" y="552" text-anchor="end" font-family="sans-serif" font-size="14" fill="#5d6c75">280</text>
 <path d="M430.0 120.0 L730.0 560.0" stroke="#607a91" stroke-width="3"/>
 <text x="462" y="170" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">実装 40xA + 20xB ≤ 160</text>
 <path d="M130.0 230.0 L880.0 505.0" stroke="#c0604a" stroke-width="3"/>
@@ -37,5 +41,5 @@
 <text x="646" y="401" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">最適解 (3.33, 1.33)</text>
 <text x="646" y="423" text-anchor="start" font-family="sans-serif" font-size="14" fill="#223e53">貢献利益 346.7万円</text>
 <text x="325" y="450" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#607a91">実行可能領域</text>
-<text x="500" y="655" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">最適点で両制約が有効。シャドープライスは実装 1.67万円/h、レビュー 1.33万円/h（上限を1時間緩めたときの貢献利益の増分）</text>
+<text x="500" y="655" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">破線は目的関数の等高線（200・280・346.7万円）。最適点で両制約が有効。シャドープライスは実装1.67万円/h、レビュー1.33万円/h</text>
 </svg>
