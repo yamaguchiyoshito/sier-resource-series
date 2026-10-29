@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="730" viewBox="0 0 1000 730" role="img" aria-label="測る、制約を特定する、配分する、実行する、資産化する、再評価するの6段階を円環で示した経営の運転サイクル">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">経営の運転サイクル：測る → 制約 → 配分 → 実行 → 資産化 → 再評価</text>
+<circle cx="500" cy="400" r="240" fill="none" stroke="#607a91" stroke-width="3"/>
+<polygon points="629.5,197.7 616.2,180.7 608.2,194.6" fill="#607a91"/>
+<polygon points="740.0,411.0 748.0,391.0 732.0,391.0" fill="#607a91"/>
+<polygon points="610.5,613.3 631.8,610.3 623.8,596.4" fill="#607a91"/>
+<polygon points="370.5,602.3 383.8,619.3 391.8,605.4" fill="#607a91"/>
+<polygon points="260.0,389.0 252.0,409.0 268.0,409.0" fill="#607a91"/>
+<polygon points="389.5,186.7 368.2,189.7 376.2,203.6" fill="#607a91"/>
+<rect x="405" y="131" width="190" height="58" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="500" y="156" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">① 測る</text><text x="500" y="180" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">流入・完了・滞留・変動</text>
+<rect x="613" y="251" width="190" height="58" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/><text x="708" y="276" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">② 制約を特定する</text><text x="708" y="300" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">TOC、制約の4階層</text>
+<rect x="613" y="491" width="190" height="58" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/><text x="708" y="516" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">③ 配分する</text><text x="708" y="540" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">限界価値、探索と深化</text>
+<rect x="405" y="611" width="190" height="58" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/><text x="500" y="636" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">④ 実行する</text><text x="500" y="660" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">責務分離、自律度、WIP制限</text>
+<rect x="197" y="491" width="190" height="58" rx="12" fill="#f6e4e8" stroke="#8ea6b2"/><text x="292" y="516" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">⑤ 資産化する</text><text x="292" y="540" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">7変換、SECI、L2へ横展開</text>
+<rect x="197" y="251" width="190" height="58" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="292" y="276" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">⑥ 再評価する</text><text x="292" y="300" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">制約の移動、能力の更新</text>
+<circle cx="500" cy="400" r="28" fill="#fcfdfd" stroke="#607a91" stroke-width="2"/>
+<text x="500" y="409" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#18324b"></text>
+<text x="500" y="392" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">R：① → ⑤ → ① の強化ループ</text>
+<text x="500" y="416" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">B：② ③ ④ で滞留を制御</text>
+<text x="500" y="700" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">6段階のどれか一つを省くと残りが機能しない。測らずに制約は見つからず、資産化しなければ生産性は複利にならない</text>
+</svg>

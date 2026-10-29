@@ -1,0 +1,6 @@
+item,project_A,project_B,limit
+contribution_margin_10k_yen,80,60,
+implementation_hours,40,20,160
+review_hours,10,20,60
+optimal_units,3.3333,1.3333,
+shadow_price_10k_yen_per_hour,1.6667,1.3333,

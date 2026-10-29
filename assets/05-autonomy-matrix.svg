@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" role="img" aria-label="失敗の影響と検証可能性の2軸にL0からL4の自律度を配置した図。UI表示修正は高自律、決済ロジック変更は低自律">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">AIの自律度はリスクと検証可能性で決める</text>
+<rect x="150" y="120" width="750" height="440" fill="#eef3f1" stroke="#8ea6b2"/>
+<path d="M150.0 590.0 L890.0 590.0" stroke="#8ea6b2" stroke-width="2" fill="none"/><polygon points="900.0,590.0 888.0,597.0 888.0,583.0" fill="#8ea6b2"/>
+<text x="525" y="618" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">失敗の影響（小 → 大）</text>
+<path d="M120.0 560.0 L120.0 130.0" stroke="#8ea6b2" stroke-width="2" fill="none"/><polygon points="120.0,120.0 127.0,132.0 113.0,132.0" fill="#8ea6b2"/>
+<text x="80" y="340" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53" transform="rotate(-90 80 340)">独立した検証で失敗を検出できる確率（低 → 高）</text>
+<rect x="156" y="126" width="138" height="76" rx="12" fill="#e1edf8" stroke="#8ea6b2"/>
+<text x="225" y="160" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">L4 統制された自律運用</text>
+<text x="225" y="181" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">定義済み範囲で一連の工程を遂行</text>
+<rect x="306" y="214" width="138" height="76" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/>
+<text x="375" y="248" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">L3 条件付き統合</text>
+<text x="375" y="269" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">基準を満たせば自動反映</text>
+<rect x="456" y="302" width="138" height="76" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/>
+<text x="525" y="336" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">L2 検証付き実行</text>
+<text x="525" y="357" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">実行し証跡を残す</text>
+<rect x="606" y="390" width="138" height="76" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/>
+<text x="675" y="424" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">L1 生成</text>
+<text x="675" y="445" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">成果物を生成、人間が採否</text>
+<rect x="756" y="478" width="138" height="76" rx="12" fill="#f6e4e8" stroke="#8ea6b2"/>
+<text x="825" y="512" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#223e53">L0 提案</text>
+<text x="825" y="533" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5d6c75">AIは提案のみ、人間が判断</text>
+<path d="M300 208 L500 166" stroke="#607a91" stroke-width="1.5"/>
+<circle cx="300" cy="208" r="8" fill="#607a91" stroke="#fff" stroke-width="2"/>
+<text x="510" y="160" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#607a91">例：UIコンポーネントの表示修正</text>
+<text x="510" y="180" text-anchor="start" font-family="sans-serif" font-size="12" fill="#607a91">影響が小さく、自動検証で検出しやすい → L3〜L4</text>
+<path d="M750 472 L495 514" stroke="#c0604a" stroke-width="1.5"/>
+<circle cx="750" cy="472" r="8" fill="#c0604a" stroke="#fff" stroke-width="2"/>
+<text x="195" y="520" text-anchor="start" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">例：決済金額の計算ロジック変更</text>
+<text x="195" y="540" text-anchor="start" font-family="sans-serif" font-size="12" fill="#c0604a">影響が大きく、見逃しの代償が高い → L0〜L1</text>
+<text x="500" y="630" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">提案モデル（公的規格ではない）。自律度はAIの能力ではなく、失敗の影響と独立検証で検出できる確率で決める</text>
+</svg>

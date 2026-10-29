@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="710" viewBox="0 0 1000 710" role="img" aria-label="物理・能力、フロー、制度・意思決定、市場・戦略の4階層を同心の枠で示し、制約が内側から外側へ移ることを示す図">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">制約は4つの階層に分けて管理する</text>
+<rect x="60" y="140" width="880" height="500" rx="16" fill="#e9e4f5" stroke="#8ea6b2"/>
+<text x="78" y="170" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">④ 市場・戦略制約</text>
+<text x="78" y="192" text-anchor="start" font-family="sans-serif" font-size="12.5" fill="#5d6c75">顧客需要不足、収益モデルの限界 ／ 対策：提供価値・価格・事業モデルの変更</text>
+<rect x="165" y="199" width="670" height="382" rx="16" fill="#f7e9d4" stroke="#8ea6b2"/>
+<text x="183" y="229" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">③ 制度・意思決定制約</text>
+<text x="183" y="251" text-anchor="start" font-family="sans-serif" font-size="12.5" fill="#5d6c75">過剰な承認、権限集中 ／ 対策：権限委譲・ルール変更</text>
+<rect x="270" y="258" width="460" height="264" rx="16" fill="#e0f0e9" stroke="#8ea6b2"/>
+<text x="288" y="288" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">② フロー制約</text>
+<text x="288" y="310" text-anchor="start" font-family="sans-serif" font-size="12.5" fill="#5d6c75">WIP過多、作業順序の不整合 ／ 対策：WIP制限・優先順位・工程調整</text>
+<rect x="375" y="317" width="250" height="146" rx="16" fill="#e1edf8" stroke="#8ea6b2"/>
+<text x="393" y="347" text-anchor="start" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">① 物理・能力制約</text>
+<text x="393" y="369" text-anchor="start" font-family="sans-serif" font-size="12.5" fill="#5d6c75">テスト環境不足、レビュアー不足 ／ 対策：増強・自動化・育成</text>
+<path d="M600.0 440.0 L897.6 171.7" stroke="#c0604a" stroke-width="3" fill="none"/><polygon points="905.0,165.0 900.8,178.2 891.4,167.8" fill="#c0604a"/>
+<text x="500" y="655" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">赤い矢印：AIで内側の制約を解くほど、制約は外側（制度・市場）へ移る</text>
+<text x="500" y="685" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">経営分析向けの整理であり、TOCの公式分類ではない。開発生産性の改善と企業経営の改善を結ぶ境界は③と④にある</text>
+</svg>

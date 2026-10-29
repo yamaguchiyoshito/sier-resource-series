@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="5工程の処理能力の棒グラフ。現状はレビュー10件/日が制約、レビューを16件/日へ増強すると検証14件/日が次の制約になる">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">制約は解消すると移動する</text>
+<text x="270" y="100" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">現状：レビューが制約（上限10件/日）</text>
+<text x="730" y="100" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">レビューを16件/日へ増強：次は検証が制約（上限14件/日）</text>
+<path d="M70 130 V460 H470" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<rect x="87.6" y="271.4" width="44.8" height="188.6" rx="4" fill="#9dbbd3"/>
+<text x="110" y="263" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">16</text>
+<text x="110" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">設計</text>
+<rect x="167.6" y="177.1" width="44.8" height="282.9" rx="4" fill="#9dbbd3"/>
+<text x="190" y="169" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">24</text>
+<text x="190" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">実装</text>
+<rect x="247.6" y="342.1" width="44.8" height="117.9" rx="4" fill="#c0604a"/>
+<text x="270" y="334" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">10</text>
+<text x="270" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">レビュー</text>
+<rect x="327.6" y="295.0" width="44.8" height="165.0" rx="4" fill="#9dbbd3"/>
+<text x="350" y="287" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">14</text>
+<text x="350" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">検証</text>
+<rect x="407.6" y="247.9" width="44.8" height="212.1" rx="4" fill="#9dbbd3"/>
+<text x="430" y="240" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">18</text>
+<text x="430" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">リリース</text>
+<path d="M70 342.1 H470" stroke="#c0604a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="470" y="334" text-anchor="end" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a"></text>
+<path d="M530 130 V460 H930" stroke="#8ea6b2" stroke-width="2" fill="none"/>
+<rect x="547.6" y="271.4" width="44.8" height="188.6" rx="4" fill="#9dbbd3"/>
+<text x="570" y="263" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">16</text>
+<text x="570" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">設計</text>
+<rect x="627.6" y="177.1" width="44.8" height="282.9" rx="4" fill="#9dbbd3"/>
+<text x="650" y="169" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">24</text>
+<text x="650" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">実装</text>
+<rect x="707.6" y="271.4" width="44.8" height="188.6" rx="4" fill="#9dbbd3"/>
+<text x="730" y="263" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">16</text>
+<text x="730" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">レビュー</text>
+<rect x="787.6" y="295.0" width="44.8" height="165.0" rx="4" fill="#c0604a"/>
+<text x="810" y="287" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">14</text>
+<text x="810" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">検証</text>
+<rect x="867.6" y="247.9" width="44.8" height="212.1" rx="4" fill="#9dbbd3"/>
+<text x="890" y="240" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">18</text>
+<text x="890" y="484" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#36556d">リリース</text>
+<path d="M530 295.0 H930" stroke="#c0604a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="930" y="287" text-anchor="end" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a"></text>
+<text x="500" y="300" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#607a91">→</text>
+<text x="500" y="530" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">縦軸は1日あたり処理能力（件/日）。各工程が必須で同じ作業単位を処理し、手戻りと変動を無視した単純化モデル</text>
+</svg>

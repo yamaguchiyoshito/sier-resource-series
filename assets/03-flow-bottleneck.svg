@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-label="流入20件/日に対し処理能力12件/日のレビュー工程で滞留が増える図">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">流入が処理能力を上回ると、滞留が積み上がる</text>
+<rect x="60" y="250" width="230" height="90" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="175" y="291" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#223e53">実装完了（流入）</text><text x="175" y="315" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#36556d">20件/日</text>
+<path d="M290.0 295.0 L375.0 295.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="385.0,295.0 373.0,302.0 373.0,288.0" fill="#607a91"/>
+<rect x="385" y="265" width="230" height="60" rx="12" fill="#f7e9d4" stroke="#c0604a" stroke-width="3"/>
+<text x="500" y="290" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">レビュー処理能力</text>
+<text x="500" y="312" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">12件/日（制約）</text>
+<path d="M615.0 295.0 L700.0 295.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="710.0,295.0 698.0,302.0 698.0,288.0" fill="#607a91"/>
+<rect x="710" y="250" width="230" height="90" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/><text x="825" y="291" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#223e53">完了</text><text x="825" y="315" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#36556d">12件/日</text>
+<rect x="420" y="200" width="160" height="12" rx="3" fill="#c0604a" opacity="0.35"/>
+<rect x="424" y="186" width="160" height="12" rx="3" fill="#c0604a" opacity="0.48"/>
+<rect x="428" y="172" width="160" height="12" rx="3" fill="#c0604a" opacity="0.61"/>
+<rect x="432" y="158" width="160" height="12" rx="3" fill="#c0604a" opacity="0.74"/>
+<rect x="436" y="144" width="160" height="12" rx="3" fill="#c0604a" opacity="0.87"/>
+<path d="M500.0 225.0 L500.0 252.0" stroke="#c0604a" stroke-width="2" fill="none"/><polygon points="500.0,262.0 493.0,250.0 507.0,250.0" fill="#c0604a"/>
+<text x="500" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#223e53">未レビュー（滞留Stock）</text>
+<text x="500" y="140" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#c0604a">20 − 12 = 8件/日ずつ増加 → 10営業日後に80件</text>
+<text x="500" y="395" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">実装能力を30件/日へ上げても完了は12件/日のまま。滞留は18件/日ずつ増え、10営業日で180件</text>
+<text x="500" y="428" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">初期滞留0件、毎日一定流入、差し戻し・休日・作業サイズ差を無視した単純化モデル</text>
+</svg>

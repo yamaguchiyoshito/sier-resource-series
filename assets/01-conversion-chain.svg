@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img" aria-label="6つの資源変換が環をなし、成果が次の活動の資源になる再帰構造">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">6つの資源変換と再帰構造</text>
+<rect x="110" y="110" width="250" height="84" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="235" y="148" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">① ヒト × 時間</text><text x="235" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">→ ソースコード・設計書</text>
+<path d="M360.0 152.0 L365.0 152.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="375.0,152.0 363.0,159.0 363.0,145.0" fill="#607a91"/>
+<rect x="375" y="110" width="250" height="84" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/><text x="500" y="148" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">② ヒト × 情報</text><text x="500" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">→ ノウハウ・技術的知識</text>
+<path d="M625.0 152.0 L630.0 152.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="640.0,152.0 628.0,159.0 628.0,145.0" fill="#607a91"/>
+<rect x="640" y="110" width="250" height="84" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/><text x="765" y="148" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">③ ノウハウ × 仕組み</text><text x="765" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">→ 標準化・自動化</text>
+<rect x="640" y="300" width="250" height="84" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/><text x="765" y="338" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">④ カネ × 仕組み</text><text x="765" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">→ スケール可能な開発基盤</text>
+<path d="M640.0 342.0 L635.0 342.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="625.0,342.0 637.0,335.0 637.0,349.0" fill="#607a91"/>
+<rect x="375" y="300" width="250" height="84" rx="12" fill="#f6e4e8" stroke="#8ea6b2"/><text x="500" y="338" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">⑤ 品質 × 納期遵守</text><text x="500" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">→ 顧客の信用</text>
+<path d="M375.0 342.0 L370.0 342.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="360.0,342.0 372.0,335.0 372.0,349.0" fill="#607a91"/>
+<rect x="110" y="300" width="250" height="84" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="235" y="338" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#223e53">⑥ 信用 × 顧客関係</text><text x="235" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#36556d">→ 継続受注・収益</text>
+<path d="M765.0 194.0 L765.0 290.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="765.0,300.0 758.0,288.0 772.0,288.0" fill="#607a91"/>
+<path d="M110 342 H60 V152 H98" stroke="#607a91" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="110.0,152.0 98.0,159.0 98.0,145.0" fill="#607a91"/>
+<text x="500" y="450" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#223e53">⑥の成果（収益・信用）は①の資源（ヒト・時間・情報）へ再投入される</text>
+<text x="500" y="482" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">変換は資源の用途・価値創出機能を変える過程。知識は形式化しても元の人間から失われない</text>
+</svg>

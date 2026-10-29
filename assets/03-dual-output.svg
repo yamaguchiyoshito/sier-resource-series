@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610" role="img" aria-label="生産活動が現在の価値と未来の価値創出能力という二重の成果を生み、両方が経営資源へ戻る図">
+<rect width="100%" height="100%" fill="#fcfdfd"/>
+<text x="50" y="51" text-anchor="start" font-family="sans-serif" font-size="27" font-weight="700" fill="#18324b">経営は二重の価値創出を管理する</text>
+<rect x="60" y="250" width="230" height="110" rx="12" fill="#e1edf8" stroke="#8ea6b2"/><text x="175" y="301" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#223e53">経営資源</text><text x="175" y="325" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">人材・知識・技術・資金・組織・関係</text>
+<path d="M290.0 305.0 L375.0 305.0" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="385.0,305.0 373.0,312.0 373.0,298.0" fill="#607a91"/>
+<rect x="385" y="250" width="230" height="110" rx="12" fill="#f7e9d4" stroke="#8ea6b2"/><text x="500" y="301" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#223e53">生産活動</text><text x="500" y="325" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">案件遂行・設計・実装・検証</text>
+<path d="M615.0 285.0 L702.5 206.7" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="710.0,200.0 705.7,213.2 696.4,202.8" fill="#607a91"/>
+<path d="M615.0 325.0 L702.5 403.3" stroke="#607a91" stroke-width="3" fill="none"/><polygon points="710.0,410.0 696.4,407.2 705.7,396.8" fill="#607a91"/>
+<rect x="710" y="150" width="240" height="100" rx="12" fill="#e0f0e9" stroke="#8ea6b2"/><text x="830" y="196" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#223e53">第一の成果</text><text x="830" y="220" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#36556d">現在の価値創出：納品・対価・売上</text>
+<rect x="710" y="360" width="240" height="100" rx="12" fill="#e9e4f5" stroke="#8ea6b2"/><text x="830" y="406" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#223e53">第二の成果</text><text x="830" y="430" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#36556d">未来の価値創出能力：経験・知識・技術・信頼</text>
+<path d="M830 150 V95 H175 V238" stroke="#607a91" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="175.0,250.0 168.0,238.0 182.0,238.0" fill="#607a91"/>
+<path d="M830 460 V520 H175 V372" stroke="#607a91" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="175.0,360.0 182.0,372.0 168.0,372.0" fill="#607a91"/>
+<text x="500" y="85" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607a91">利益の再投資</text>
+<text x="500" y="540" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#607a91">蓄積した能力の再投入（次の活動の生産能力を増強）</text>
+<text x="500" y="585" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5d6c75">実線は価値創出、破線は再投資と資源の再投入。第二の成果を測らない経営は、将来の生産能力の低下に気づけない</text>
+</svg>

@@ -1,0 +1,3 @@
+contract,revenue_before_10k_yen,revenue_after_10k_yen,gross_margin_before_10k_yen,gross_margin_after_10k_yen
+固定価格契約,1000,1000,400,600
+時間精算契約,1000,600,400,200
