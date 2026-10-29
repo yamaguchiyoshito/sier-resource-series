@@ -19,8 +19,8 @@
 <text x="740" y="442" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">AIを使いこなす組織能力、検証の習慣</text>
 <text x="740" y="464" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5d6c75">システム固有のテスト知識、チーム間の協調関係</text>
 <text x="740" y="300" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#c0604a">流入速度に上限があり、時間がかかる</text>
-<path d="M920 372 H975" stroke="#c0604a" stroke-width="3" stroke-dasharray="6 4"/>
-<text x="985" y="355" text-anchor="end" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">陳腐化・離職で流出</text>
+<path d="M914.0 398.0 L965.0 398.0" stroke="#c0604a" stroke-width="3" fill="none" stroke-dasharray="8 6"/><polygon points="975.0,398.0 963.0,405.0 963.0,391.0" fill="#c0604a"/>
+<text x="985" y="384" text-anchor="end" font-family="sans-serif" font-size="14" font-weight="700" fill="#c0604a">陳腐化・離職で流出</text>
 <text x="500" y="505" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">ディーリックス／クール（1989）の資産ストックの比喩。</text>
 <text x="500" y="527" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#5d6c75">資金を一気に投じても蓄積資産の流入は速くならず、この時間差が競争優位の持続性を生む</text>
 </svg>

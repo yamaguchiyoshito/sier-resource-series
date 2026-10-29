@@ -236,35 +236,36 @@ def fig_02_four_dimensions():
 
 
 def fig_02_theory_timeline():
+    """縦型タイムライン。年が密集する1989〜1997を重ねずに並べるため、行は等間隔（年に比例しない）。"""
     body = [title('経営資源論の発展：保有から組み合わせへ、そして変革能力へ')]
-    def X(year): return 80 + (year - 1950) * (840 / 60)
-    bands = [('資源の保有（ヒト・モノ・カネ・情報）', 1950, 1991, FILLS[0]), ('資源の組み合わせ・サービス', 1959, 1997, FILLS[1]), ('資源そのものを変革する能力', 1997, 2010, FILLS[3])]
-    for i, (lab, a, b, fill) in enumerate(bands):
-        y = 92 + i * 44
-        body.append(f'<rect x="{X(a):.0f}" y="{y}" width="{X(b) - X(a):.0f}" height="34" rx="8" fill="{fill}" stroke="{STROKE}"/>')
-        body.append(text((X(a) + X(b)) / 2, y + 23, lab, 14, 700, T1))
-    ay = 258
-    body.append(f'<path d="M{X(1950)} {ay} H{X(2010)}" stroke="{STROKE}" stroke-width="2"/>')
-    for yr in range(1950, 2011, 10):
-        body.append(f'<path d="M{X(yr):.0f} {ay - 5} v10" stroke="{STROKE}" stroke-width="2"/>'); body.append(text(X(yr), ay - 12, str(yr), 14, 400, MUTED))
     events = [(1959, 'ペンローズ', '企業成長の理論', '資源と、資源が提供するサービスは異なる'),
-              (1989, 'ディーリックス／クール', '資産ストックの蓄積', '買える資源と、蓄積する資源を区別する'),
+              (1989, 'ディーリックス／クール', '資産ストックの蓄積', '買える資源と、時間をかけて蓄積する資源を区別する'),
               (1991, 'バーニー', '資源ベース理論（RBV）', '希少性・模倣困難性が競争優位を左右する'),
               (1996, 'グラント', '知識ベース理論（KBV）', '企業は専門知識を統合する仕組みである'),
-              (1997, 'ティースら', 'ダイナミック・ケイパビリティ', '資源を再構成する能力が経営能力になる'),
+              (1997, 'ティースら', 'ダイナミック・ケイパビリティ', '資源を再構成する能力そのものが経営能力になる'),
               (2007, 'ティース', '変革能力の3要素', 'Sensing・Seizing・Transforming')]
-    cw, ch = 290, 100
+    ax = 150; y0 = 130; step = 92
+    body.append(f'<path d="M{ax} {y0 - 30} V{y0 + step * 5 + 30}" stroke="{STROKE}" stroke-width="3"/>')
     for i, (yr, who, what, why) in enumerate(events):
-        col, row = i % 3, i // 3
-        cx = 60 + cw / 2 + col * (cw + 25); top = 310 + row * (ch + 20)
-        body.append(f'<path d="M{X(yr):.0f} {ay + 8} L{cx:.0f} {top}" stroke="{LINE}" stroke-width="1.5"/>')
-        body.append(f'<circle cx="{X(yr):.0f}" cy="{ay}" r="7" fill="{LINE}" stroke="#fff" stroke-width="2"/>')
-        body.append(f'<rect x="{cx - cw / 2:.0f}" y="{top}" width="{cw}" height="{ch}" rx="10" fill="#fff" stroke="{STROKE}"/>')
-        body.append(text(cx - cw / 2 + 14, top + 26, f'{yr}　{who}', 16, 700, T1, 'start'))
-        body.append(text(cx - cw / 2 + 14, top + 50, what, 14, 400, T2, 'start'))
-        body.append(text(cx - cw / 2 + 14, top + 74, why, 14, 400, MUTED, 'start'))
-    body.append(note(588, '視点は「何を持つか」から「どう組み合わせるか」、さらに「資源と能力そのものをどう作り替えるか」へ移ってきた'))
-    return svg(1000, 615, 'ペンローズ（1959）からティース（2007）までの経営資源論の系譜と、保有から組み合わせ、変革能力への視点の移行', body)
+        y = y0 + step * i
+        body.append(text(ax - 18, y + 6, str(yr), 16, 700, LINE, 'end'))
+        body.append(f'<circle cx="{ax}" cy="{y}" r="8" fill="{LINE}" stroke="#fff" stroke-width="2"/>')
+        body.append(f'<path d="M{ax + 8} {y} H{ax + 30}" stroke="{STROKE}" stroke-width="2"/>')
+        body.append(f'<rect x="{ax + 30}" y="{y - 38}" width="570" height="76" rx="10" fill="#fff" stroke="{STROKE}"/>')
+        body.append(text(ax + 46, y - 12, who, 16, 700, T1, 'start'))
+        body.append(text(ax + 46, y + 10, what, 14, 400, T2, 'start'))
+        body.append(text(ax + 46, y + 30, why, 14, 400, MUTED, 'start'))
+    # 視点の帯（縦のバー）。対象の回の行にまたがる
+    bands = [('資源の保有', 0, 2, FILLS[0]), ('資源の組み合わせ・サービス', 0, 4, FILLS[1]), ('資源と能力の変革', 4, 5, FILLS[3])]
+    body.append(text(865, y0 - 46, '視点の移り変わり', 14, 700, MUTED))
+    for j, (lab, a, b, fill) in enumerate(bands):
+        x = 780 + j * 60; ya = y0 + step * a - 36; yb = y0 + step * b + 36
+        body.append(f'<rect x="{x}" y="{ya}" width="48" height="{yb - ya}" rx="10" fill="{fill}" stroke="{STROKE}"/>')
+        cy = (ya + yb) / 2
+        body.append(text(x + 24, cy, lab, 14, 700, T1, 'middle', f' transform="rotate(-90 {x + 24} {cy:.0f})"'))
+    body.append(note(y0 + step * 5 + 76, '視点は「何を持つか」から「どう組み合わせるか」、さらに「資源と能力をどう作り替えるか」へ移ってきた'))
+    body.append(note(y0 + step * 5 + 98, '行は等間隔に並べており、年の間隔には比例しない'))
+    return svg(1000, y0 + step * 5 + 126, 'ペンローズ（1959）からティース（2007）までの経営資源論の系譜を縦に並べ、保有から組み合わせ、変革能力への視点の移行を帯で示した図', body)
 
 
 def fig_02_asset_stock_bathtub():
@@ -282,8 +283,8 @@ def fig_02_asset_stock_bathtub():
     body.append(text(260, 300, '蛇口を開ければすぐ満たせる', 15, 700, LINE))
     tub(560, '内部で蓄積する必要がある資源', ['AIを使いこなす組織能力、検証の習慣', 'システム固有のテスト知識、チーム間の協調関係'], 60, 8, '#bcd3e6')
     body.append(text(740, 300, '流入速度に上限があり、時間がかかる', 15, 700, ACCENT))
-    body.append(f'<path d="M920 372 H975" stroke="{ACCENT}" stroke-width="3" stroke-dasharray="6 4"/>')
-    body.append(text(985, 355, '陳腐化・離職で流出', 14, 700, ACCENT, 'end'))
+    body.append(arrow(914, 398, 975, 398, dashed=True, color=ACCENT, width=3))
+    body.append(text(985, 384, '陳腐化・離職で流出', 14, 700, ACCENT, 'end'))
     body.append(note(505, 'ディーリックス／クール（1989）の資産ストックの比喩。'))
     body.append(note(527, '資金を一気に投じても蓄積資産の流入は速くならず、この時間差が競争優位の持続性を生む'))
     return svg(1000, 552, '蛇口を開ければすぐ満たせる購入資源の浴槽と、流入速度に上限がある蓄積資源の浴槽の比較', body)
